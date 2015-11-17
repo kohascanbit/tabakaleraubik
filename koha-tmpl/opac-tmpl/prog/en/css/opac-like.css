@@ -1,0 +1,172 @@
+#purchase-sims-feature {
+    margin-bottom: 15px;
+}
+
+
+hr.bucketDivider:after {
+    background: -moz-linear-gradient(left center , white, rgba(255, 255, 255, 0), white) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    filter: none;
+    height: 44px;
+    width: 100%;
+    z-index: 1;
+}
+hr.bucketDivider {
+    clear: left;
+}
+#revDivider .a-divider-inner, hr.bucketDivider {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-top: 1px solid #ccc !important;
+    margin-bottom: -36px !important;
+}
+hr.bucketDivider {
+    background: -moz-linear-gradient(center top , #ddd, #f7f7f7 3px, white) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    filter: none;
+    height: 44px !important;
+    margin-bottom: -18px;
+    z-index: 0;
+}
+
+.a-section:last-child {
+    margin-bottom: 0;
+}
+div.bucket {
+    padding: 5px 0;
+}
+
+.simsWrapper {
+    overflow: hidden;
+}
+
+.shoveler {
+    position: relative;
+    width: 100%;
+}
+
+.simsWrapper .shoveler-heading {
+    margin-bottom: 15px;
+    padding-right: 227px;
+}
+#purchase-sims-feature .shoveler .shoveler-pagination {
+    padding-top: 0 !important;
+}
+.simsWrapper .shoveler .shoveler-pagination {
+    padding: 0;
+}
+.simsWrapper .shoveler-pagination {
+    padding: 0;
+    text-align: right;
+    width: 227px;
+}
+.shoveler .shoveler-pagination {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.simsWrapper .shoveler-button-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.simsWrapper .shoveler-content {
+    clear: both;
+    margin: 0 35px 0 45px;
+}
+.shoveler ul {
+    height: 140px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+}
+.simsWrapper .shoveler li {
+    margin: 0 10px;
+    overflow: hidden;
+    padding: 0;
+    width: 120px;
+}
+.simsWrapper .shoveler li {
+    padding: 0;
+    width: 120px;
+}
+.shoveler li {
+    float: left;
+    height: 100%;
+    list-style: none outside none;
+    margin: 0;
+    padding: 10px 0 0;
+    width: 180px;
+}
+
+.swSprite {
+    background-image: url("http://g-ecx.images-amazon.com/images/G/30/common/sprites/sprite-site-wide._V146303602_.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+}
+.s_shvlBack {
+    background-position: -30px -80px;
+    height: 50px;
+    width: 25px;
+}
+.s_shvlNext {
+    background-position: -60px -80px;
+    height: 50px;
+    width: 25px;
+}
+.swSprite {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+.shoveler a.back-button, .shoveler a.next-button {
+    height: 50px;
+    position: absolute;
+    top: 75px;
+    width: 25px;
+}
+.simsWrapper a {
+    text-decoration: none;
+}
+.shoveler a.next-button {
+    right: 1px;
+}
+.swControls{
+	position: relative;
+}
+
+a.swShowPage{
+
+	/* The links that initiate the page slide */
+
+	background-color:#7e7e7e;
+	float:left;
+	height:15px;
+	margin:4px 3px;
+	text-indent:-9999px;
+	width:15px;
+	/*border:1px solid #ccc;*/
+	
+	/* CSS3 rounded corners */
+	
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+}
+
+a.swShowPage:hover,
+a.swShowPage.active{
+	background-color:#00ccff;
+}

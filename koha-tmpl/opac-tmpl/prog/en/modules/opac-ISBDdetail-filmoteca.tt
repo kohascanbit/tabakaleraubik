@@ -1,0 +1,115 @@
+[% INCLUDE 'doc-head-open-filmoteca.inc' %][% IF ( LibraryNameTitle ) %][% LibraryNameTitle %][% ELSE %]Koha online[% END %] catalog &rsaquo; ISBD view
+[% INCLUDE 'doc-head-close-filmoteca.inc' %]
+<script type="text/javascript">
+//<![CDATA[
+    YAHOO.util.Event.onContentReady("furtherm", function () {
+        $("#furtherm").css("display","block").css("visibility","hidden");
+        $("#furthersearches").parent().show();
+        var furthersearchesMenu = new YAHOO.widget.Menu("furtherm");
+            furthersearchesMenu.render();
+            furthersearchesMenu.cfg.setProperty("context", ["furthersearches", "tr", "br"]);
+            furthersearchesMenu.subscribe("beforeShow",positionfurthersearchesMenu);
+            furthersearchesMenu.subscribe("show", furthersearchesMenu.focus);
+            function positionfurthersearchesMenu() {
+                        furthersearchesMenu.align("tr", "br");
+            }
+            YAHOO.util.Event.addListener("furthersearches", "click", furthersearchesMenu.show, null, furthersearchesMenu);
+            YAHOO.widget.Overlay.windowResizeEvent.subscribe(positionfurthersearchesMenu);
+     });
+//]]>
+</script>
+</head>
+<body id="opac-isbddetail">
+
+<div id="doc3" class="yui-t7">
+   <div id="bd">
+[% INCLUDE 'masthead-filmoteca.inc' %]
+<div id="left-detail">
+  	<div id="left_search">
+  [% IF ( OpacPublic ) %]
+  <form name="searchform" method="get" action="/cgi-bin/koha/opac-search-filmoteca.pl" id="searchform">
+    <h4 class="new_search">New search</h4>
+    <label for="masthead_search" class="left"> Search 
+	[% UNLESS ( OpacAddMastheadLibraryPulldown ) %]
+            [% IF ( mylibraryfirst ) %] (in [% mylibraryfirst %] only)[% END %]
+	[% END %]
+    </label>
+
+	<select name="idx" id="masthead_search" class="left">
+	[% IF ( ms_kw ) %]
+        <option selected="selected" value="">Library Catalog</option>
+		[% ELSE %]
+        <option value="">Library Catalog</option>
+		[% END %]
+		[% IF ( ms_ti ) %]
+        <option selected="selected" value="ti">Title</option>
+		[% ELSE %]
+        <option value="ti">Title</option>
+		[% END %]
+		[% IF ( ms_au ) %]
+        <option selected="selected" value="au">Author</option>
+		[% ELSE %]
+        <option value="au">Author</option>
+		[% END %]
+		[% IF ( ms_su ) %]
+        <option selected="selected" value="su">Subject</option>
+		[% ELSE %]
+        <option value="su">Subject</option>
+		[% END %]
+		[% IF ( ms_nb ) %]
+		<option selected="selected" value="nb">ISBN</option>
+		[% ELSE %]
+		<option value="nb">ISBN</option>
+		[% END %]
+		[% IF ( ms_se ) %]
+        <option selected="selected" value="se">Series</option>
+		[% ELSE %]
+        <option value="se">Series</option>
+		[% END %]
+		[% IF ( ms_callnum ) %]
+        <option selected="selected" value="callnum">Call Number</option>
+		[% ELSE %]
+        <option value="callnum">Call Number</option>
+		[% END %]</select>
+[% IF ( ms_value ) %]
+        <input type="text" id = "transl1" name="q" value="[% ms_value |html %]" class="left"/><div id="translControl"></div>
+[% ELSE %]
+        <input type="text" id = "transl1" name="q" class="left"/><div id="translControl"></div>
+[% END %]
+   <input name="limit" value="branch:FIL" type="hidden" />
+    <input type="submit" value="Go" id="searchsubmit" class="left" />
+    </form>
+  </div>
+[% END %]
+	<div class="yui-u">
+	<div id="ulactioncontainer" class="container">
+
+[% INCLUDE 'opac-detail-sidebar-filmoteca.inc' %]
+
+</div>
+</div>
+</div>
+    <div id="yui-main">
+     <div id="list_detail">
+    [% IF ( opacbookbag ) %]<span id="cmspan"></span>[% END %]
+    </div>
+    <div class="yui-b">
+    <div id="opac-detail" class="yui-ge">
+    <div class="yui-u first">
+    <div id="userisbddetail" class="container">
+    <div id="catalogue_detail_biblio">
+	
+     <div id="views">
+     <span class="view"><a id="Normalview" href="/cgi-bin/koha/opac-detail-filmoteca.pl?biblionumber=[% biblionumber %]">Normal view</a></span> <span class="view"><a id="MARCview" href="/cgi-bin/koha/opac-MARCdetail-filmoteca.pl?biblionumber=[% biblionumber %]">MARC view</a></span> <span class="view"><span id="ISBDview">ISBD view</span></span></div>
+
+    <div id="isbdcontents">[% ISBD %]</div>
+
+	</div>
+	</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+[% INCLUDE 'opac-bottom-filmoteca.inc' %]

@@ -1,0 +1,404 @@
+[% INCLUDE 'doc-head-open.inc' %]
+<title>Koha &rsaquo; Authority details</title>
+[% INCLUDE 'doc-head-close.inc' %]
+<script type="text/javascript" src="[% themelang %]/js/cataloging.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+	var new_tag_id;
+	var field_start2;
+	
+    $(document).ready(function(){
+        var index_start = "[% index %]";
+        var index_tag = "[% indexTag %]";
+        var whichfield;
+        try {
+            whichfield = opener.opener.document.getElementById(index_start);
+        } catch(e) {
+            return;
+        }
+
+        var field_start = whichfield.parentNode.parentNode;
+
+        // Sets the good number of form fields for the specified subfield
+        // Returns false if the cloning failed
+        function SetSubfieldNumber(subfield_name, nb) {
+            // Nothing to do if we only have one value
+            if(nb <= 1) {
+                return true;
+            }
+            
+            // Find the subfield we want to clone
+            var re = new RegExp('^subfield' + subfield_name,'g');
+            var subfields = $(field_start).children('div').filter( function() {
+                return this.id.match(re);
+            });
+
+            // Try to add as many clones as needed
+            try {
+                for(var i=0; i<nb-subfields.length; i++) {
+                    window.opener.opener.CloneSubfield(subfields[0].getAttribute('id'),'[% advancedMARCEditor %]');
+                }
+            }
+            catch(err) {
+                return false;
+            }
+            return true;
+        }
+
+        // Fills the subfield with the values entered in argument
+        function SetSubfieldValues() {
+            // Get the arguments
+            var subfield_name = arguments[0];
+            var values = new Array();
+            for(var i=1; i<arguments.length; i++) {
+                values.push(arguments[i]);
+            }
+
+            // Create the correct number of form fields for all values
+            // If the field cloning failed, only the first value will be added to the form.
+            SetSubfieldNumber(subfield_name, values.length);
+            
+            // Find the subfields where we will add the new values
+            var re = new RegExp('^subfield' + subfield_name,'g');
+            var subfields = $(field_start).children('div').filter( function() {
+                return this.id.match(re);
+            });
+
+            // Add the new values to those subfields, empty the additional fields
+            var i=0;
+            subfields.each(function() {
+                if(i in values) {
+                    this.getElementsByTagName('input')[1].value = values[i];
+                }
+                else {
+                    this.getElementsByTagName('input')[1].value = "";
+                }
+                i++;
+            });
+        }
+        //--------------------------------------------------------------------------------
+        
+        // Sets the good number of form fields for the specified subfield
+        // Returns false if the cloning failed
+        function SetSubfieldNumber2(subfield_name, nb) {
+            
+            // Nothing to do if we only have one value
+            if(nb <= 1) {
+                return true;
+            }
+            
+            // Find the subfield we want to clone
+            var re = new RegExp('^subfield' + subfield_name,'g');
+            var subfields = $(field_start2).children('div').filter( function() {
+                return this.id.match(re);
+            });
+
+            // Try to add as many clones as needed
+            try {
+                for(var i=0; i<nb-subfields.length; i++) {
+                    window.opener.opener.CloneSubfield(subfields[0].getAttribute('id'),'[% advancedMARCEditor %]');
+                }
+            }
+            catch(err) {
+                return false;
+            }
+            return true;
+        }
+        
+        // Fills the subfield with the values entered in argument
+        function SetSubfieldValues2() {
+            // Get the arguments
+            
+            field_start2 = opener.opener.document.getElementById(new_tag_id);
+            
+            
+            var subfield_name = arguments[0];
+            var values = new Array();
+            for(var i=1; i<arguments.length; i++) {
+                values.push(arguments[i]);
+            }
+
+            // Create the correct number of form fields for all values
+            // If the field cloning failed, only the first value will be added to the form.
+            SetSubfieldNumber2(subfield_name, values.length);
+            
+            // Find the subfields where we will add the new values
+            var re = new RegExp('^subfield' + subfield_name,'g');
+            var subfields = $(field_start2).children('div').filter( function() {
+                return this.id.match(re);
+            });
+
+            // Add the new values to those subfields, empty the additional fields
+            var i=0;
+            subfields.each(function() {
+                if(i in values) {
+                    this.getElementsByTagName('input')[1].value = values[i];
+                }
+                else {
+                    this.getElementsByTagName('input')[1].value = "";
+                }
+                i++;
+            });
+        }
+
+        [% UNLESS ( clear ) %]
+        [% FOREACH SUBFIELD_LOO IN SUBFIELD_LOOP %]
+            SetSubfieldValues(
+                "[% tag_number |replace("'", "\'") |replace('"', '\"') |replace('\n', '\\n') |replace('\r', '\\r') %][% SUBFIELD_LOO.marc_subfield |replace("'", "\'") |replace('"', '\"') |replace('\n', '\\n') |replace('\r', '\\r') %]"
+            [% FOREACH marc_value IN SUBFIELD_LOO.marc_values %]
+                ,"[% marc_value |replace("'", "\'") |replace('"', '\"') |replace('\n', '\\n') |replace('\r', '\\r') %]"
+            [% END %]
+            );
+        [% END %]
+        [% END %]
+
+        // browse all its subfields (clear and $9)
+        var subfields = field_start.getElementsByTagName('input');
+        var re = /^tag_\d*_code_/;
+        for(var i=0, len = subfields.length ; i< len ; i++) { // browse all subfields
+            if(subfields[i].getAttribute('name').match(re)){ // it s a subfield
+                var code     = subfields[i];   // code is the first input
+                var subfield = subfields[i+1]; // subfield the second
+
+            [% IF ( clear ) %]
+                if (subfield){subfield.value="" ;}
+            [% ELSE %]
+                if(code.value=='9'){
+                    subfield.value = "[% authid |replace("'", "\'") |replace('"', '\"') |replace('\n', '\\n') |replace('\r', '\\r') %]";
+                    break;
+                }
+            [% END %]
+            }
+        }
+        
+        //----------------------------------------------------------------------------------------------------------------------------------
+        
+        [% UNLESS ( clear ) %]
+        [% FOREACH TAG_LOO IN TAG_LOOP %]
+        	CloneField2(index_tag, '[% TAG_LOO.indicator2 %]', '0','0');
+        	
+        	[% FOREACH TAG_SUBFIELD_LOO IN TAG_LOO.tag_subfield_loop %]
+	            SetSubfieldValues2(
+	                "[% tag_number |replace("'", "\'") |replace('"', '\"') |replace('\n', '\\n') |replace('\r', '\\r') %][% TAG_SUBFIELD_LOO.marc_subfield |replace("'", "\'") |replace('"', '\"') |replace('\n', '\\n') |replace('\r', '\\r') %]"
+	            [% FOREACH marc_value IN TAG_SUBFIELD_LOO.marc_values %]
+	                ,"[% marc_value |replace("'", "\'") |replace('"', '\"') |replace('\n', '\\n') |replace('\r', '\\r') %]"
+	            [% END %]
+            	);
+            [% END %]
+            
+        [% END %]
+        [% END %]
+        
+      	opener.close();
+       	window.close();
+            
+       	return false;
+    });
+    
+/**
+ * To clone a field
+ * @param hideMarc '0' for false, '1' for true
+ * @param advancedMARCEditor '0' for false, '1' for true
+ */
+function CloneField2(index, indicator2, hideMarc, advancedMARCEditor) {
+    var original = opener.opener.document.getElementById(index); //original <div>
+    var clone = original.cloneNode(true);
+    var new_key = CreateKey();
+    var change_id = original.getAttribute('id').replace("_110_", "_910_");
+    change_id = change_id.replace("_710_", "_920_");
+    var new_id  = change_id + new_key;
+    new_tag_id = new_id;
+
+    clone.setAttribute('id',new_id); // setting a new id for the parent div
+
+    var divs = clone.getElementsByTagName('div');
+
+    // if hide_marc, indicators are hidden fields
+    // setting a new name for the new indicator
+    for(var i=0; i < 2; i++) {
+        var indicator = clone.getElementsByTagName('input')[i];
+        var change_id_ind = indicator.getAttribute('name').replace("_110_", "_910_");
+     	change_id_ind = change_id_ind.replace("_111_", "_911_");
+        indicator.setAttribute('name', change_id_ind+new_key);
+        if (i == 1){
+        	indicator.setAttribute('value',indicator2);
+        	indicator.value = indicator2;
+        }
+    }
+    
+    var tagSpan = clone.getElementsByClassName('tagnum')[0];
+    if (tagSpan != undefined){
+    	if (tagSpan.innerHTML.indexOf("110") > -1){
+    		indicator.setAttribute('innerHTML','910');
+    		tagSpan.innerHTML = '910';
+    	} else if (tagSpan.innerHTML.indexOf("111") > -1){
+    		indicator.setAttribute('innerHTML','911');
+    		tagSpan.innerHTML = '911';
+    	} 
+    }
+
+    // settings all subfields
+    for(var i=0,divslen = divs.length ; i<divslen ; i++){      // foreach div
+        if(divs[i].getAttribute("id").match(/^subfield/)){  // if it s a subfield
+
+            // set the attribute for the new 'div' subfields
+            divs[i].setAttribute('id',divs[i].getAttribute('id')+new_key);
+
+            var inputs   = divs[i].getElementsByTagName('input');
+            var id_input = "";
+
+            for( j = 0 ; j < inputs.length ; j++ ) {
+                if(inputs[j].getAttribute("id") && inputs[j].getAttribute("id").match(/^tag_/) ){
+                    inputs[j].value = "";
+                }
+            }
+
+            inputs[0].setAttribute('id',inputs[0].getAttribute('id')+new_key);
+            inputs[0].setAttribute('name',inputs[0].getAttribute('name')+new_key);
+            var id_input;
+            try {
+                id_input = inputs[1].getAttribute('id')+new_key;
+                inputs[1].setAttribute('id',id_input);
+                inputs[1].setAttribute('name',inputs[1].getAttribute('name')+new_key);
+            } catch(e) {
+                try{ // it s a select if it is not an input
+                    var selects = divs[i].getElementsByTagName('select');
+                    id_input = selects[0].getAttribute('id')+new_key;
+                    selects[0].setAttribute('id',id_input);
+                    selects[0].setAttribute('name',selects[0].getAttribute('name')+new_key);
+                }catch(e2){ // it is a textarea if it s not a select or an input
+                    var textaeras = divs[i].getElementsByTagName('textarea');
+                    id_input = textaeras[0].getAttribute('id')+new_key;
+                    textaeras[0].setAttribute('id',id_input);
+                    textaeras[0].setAttribute('name',textaeras[0].getAttribute('name')+new_key);
+                }
+            }
+
+            if (advancedMARCEditor == '0') {
+                // when cloning a subfield, re set its label too.
+                var labels = divs[i].getElementsByTagName('label');
+                labels[0].setAttribute('for',id_input);
+            }
+
+            if(hideMarc == '0') {
+                // updating javascript parameters on button up
+                var imgs = divs[i].getElementsByTagName('img');
+                imgs[0].setAttribute('onclick',"upSubfield(\'"+divs[i].getAttribute('id')+"\');");
+            }
+
+            // setting its '+' and '-' buttons
+            try {
+                var anchors = divs[i].getElementsByTagName('a');
+                for (var j = 0; j < anchors.length; j++) {
+                    if(anchors[j].getAttribute('class') == 'buttonPlus'){
+                        anchors[j].setAttribute('onclick',"CloneSubfield('" + divs[i].getAttribute('id') + "','" + advancedMARCEditor + "'); return false;");
+                    } else if (anchors[j].getAttribute('class') == 'buttonMinus') {
+                        anchors[j].setAttribute('onclick',"UnCloneField('" + divs[i].getAttribute('id') + "'); return false;");
+                    }
+                }
+            }
+            catch(e){
+                // do nothig if ButtonPlus & CloneButtonPlus don t exist.
+            }
+
+            // button ...
+            var spans=0;
+            try {
+                spans = divs[i].getElementsByTagName('a');
+            } catch(e) {
+                // no spans
+            }
+            if(spans){
+                var buttonDot;
+                if(!CloneButtonPlus){ // it s impossible to have  + ... (buttonDot AND buttonPlus)
+                    buttonDot = spans[0];
+                    if(buttonDot){
+                        // 2 possibilities :
+                        try{
+                            var buttonDotOnClick = buttonDot.getAttribute('onclick');
+                            if(buttonDotOnClick.match('Clictag')){   // -1- It s a plugin
+                                var re = /\('.*'\)/i;
+                                buttonDotOnClick = buttonDotOnClick.replace(re,"('"+inputs[1].getAttribute('id')+"')");
+                                if(buttonDotOnClick){
+                                    buttonDot.setAttribute('onclick',buttonDotOnClick);
+                                }
+                            } else {
+                                if(buttonDotOnClick.match('Dopop')) {  // -2- It's a auth value
+                                    var re1 = /&index=.*',/;
+                                    var re2 = /,.*\)/;
+
+                                    buttonDotOnClick = buttonDotOnClick.replace(re1,"&index="+inputs[1].getAttribute('id')+"',");
+                                    buttonDotOnClick = buttonDotOnClick.replace(re2,",'"+inputs[1].getAttribute('id')+"')");
+
+                                    if(buttonDotOnClick){
+                                            buttonDot.setAttribute('onclick',buttonDotOnClick);
+                                    }
+                                }
+                            }
+                            try {
+                                // do not copy the script section.
+                                var script = spans[0].getElementsByTagName('script')[0];
+                                spans[0].removeChild(script);
+                            } catch(e) {
+                                // do nothing if there is no script
+                            }
+                        }catch(e){}
+                    }
+                }
+            }
+            if(hideMarc == '0') {
+                var buttonUp = divs[i].getElementsByTagName('img')[0];
+                buttonUp.setAttribute('onclick',"upSubfield('" + divs[i].getAttribute('id') + "')");
+            }
+
+        } else { // it's a indicator div
+            if(divs[i].getAttribute('id').match(/^div_indicator/)){
+
+                // setting a new id for the indicator div
+                divs[i].setAttribute('id',divs[i].getAttribute('id')+new_key);
+
+                var inputs = divs[i].getElementsByTagName('input');
+                inputs[0].setAttribute('id',inputs[0].getAttribute('id')+new_key);
+                inputs[1].setAttribute('id',inputs[1].getAttribute('id')+new_key);
+
+                var CloneButtonPlus;
+                try {
+                    var anchors = divs[i].getElementsByTagName('a');
+                    for (var j = 0; j < anchors.length; j++) {
+                        if (anchors[j].getAttribute('class') == 'buttonPlus') {
+                            anchors[j].setAttribute('onclick',"CloneField('" + new_id + "','" + hideMarc + "','" + advancedMARCEditor + "'); return false;");
+                        } else if (anchors[j].getAttribute('class') == 'buttonMinus') {
+                            anchors[j].setAttribute('onclick',"UnCloneField('" + new_id + "'); return false;");
+                        } else if (anchors[j].getAttribute('class') == 'expandfield') {
+                            anchors[j].setAttribute('onclick',"ExpandField('" + new_id + "'); return false;");
+                        }
+                    }
+                }
+                catch(e){
+                    // do nothig CloneButtonPlus doesn't exist.
+                }
+
+            }
+        }
+    }
+
+    // insert this line on the page
+    original.parentNode.insertBefore(clone,original.nextSibling);
+}
+//]]>
+</script>
+</head>
+<body id="auth_blinddetail-biblio-search" class="auth">
+
+<div id="doc" class="yui-t7">
+   <div id="bd">
+	<div class="yui-g">
+
+
+
+</div>
+</div>
+</div>
+
+[% INCLUDE 'popup-bottom.inc' %]

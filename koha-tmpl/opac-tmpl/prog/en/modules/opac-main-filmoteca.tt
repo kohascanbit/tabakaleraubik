@@ -1,0 +1,45 @@
+[% INCLUDE 'doc-head-open-filmoteca.inc' %] Filmoteca Catalog 
+[% INCLUDE 'doc-head-close-filmoteca.inc' %]</head>
+<body id="opac-main2">[% IF ( OpacNav ) %]<div id="doc3" class="yui-t1">[% ELSE %]<div id="doc3" class="yui-t7">[% END %] 
+   <div id="bd">
+[% INCLUDE 'masthead-filmoteca.inc' %] 
+
+	<div id="yui-main">
+
+	<div class="yui-b">
+     [% IF ( opacuserlogin ) %]
+	 [% IF ( loggedinusername ) %]
+	     <div id="loggedin" class="yui-g">
+	     <div>
+	 [% ELSE %]
+	     <div id="notloggedin" class="yui-ge">
+	     <div class="yui-u first">
+         [% END %]
+     [% ELSE %]
+         <div id="notloggedin" class="yui-g">
+	 <div>
+    [% END %]
+    <div id="main-search">
+  [% INCLUDE 'search-filmoteca.inc' %]
+  </div>
+
+    [% IF ( OpacMainUserBlockMobile ) %]<div id="opacmainuserblockmobile" class="container">[% OpacMainUserBlockMobile %]</div>[% END %]
+  [% IF ( koha_news_count ) %]
+    <div id="news" class="container">
+     <h2>Interesting news</h2>
+    <table>
+    [% FOREACH koha_new IN koha_news %]
+    <tr><th>[% koha_new.title %]</th></tr>
+    <tr><td><p>[% koha_new.new %]</p>
+                <p class="newsfooter"><i>(published on [% koha_new.newdate %])</i></p></td></tr>
+    [% END %]
+    </table>
+</div>
+[% END %]
+
+
+</div>
+</div>
+</div>
+
+</div>[% INCLUDE 'opac-bottom-filmoteca.inc' %] 

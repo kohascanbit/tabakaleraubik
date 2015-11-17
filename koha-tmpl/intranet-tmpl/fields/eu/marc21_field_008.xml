@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tagfield tag="008" xmlns="http://koha-community.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation= "./marc21_field_CF.xsd">
+  <Material id="BKS" name="Liburuak" description="">
+    <Position pos="00-05" name="Sartze data" description=""/>
+    <Position pos="06" name="Data mota/Argitaratze egoera" description="">
+      <Value description="Ez dago datarik">b</Value>
+      <Value description="Baliabide jarraitua egun argitaratzen dena">c</Value>
+      <Value description="Baliabide jarraitua argitaratze geldituta">d</Value>
+      <Value description="Data zehatza">e</Value>
+      <Value description="Bilduman barne dauden datak">i</Value>
+      <Value description="Bilduma gehienaren urte-tartea">k</Value>
+      <Value description="Data anizkunak">m</Value>
+      <Value description="Data ezezagunak">n</Value>
+      <Value description="Banatze/produkzio data">p</Value>
+      <Value description="Zalantzazko data">q</Value>
+      <Value description="Berrinprimatze data">r</Value>
+      <Value description="Data bakarra ezaguna/daitekeena">s</Value>
+      <Value description="Argitaratze data eta Copyright data">t</Value>
+      <Value description="Baiabide jarraituaren egoera ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="07-10" name="Data 1" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="11-14" name="Data 2" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="15-17" url="http://www.loc.gov/marc/countries/countries_code.html" urltext="MARC Code List for Countries" name="Argitaratze lekua" description="">
+      <Value description="Hainbat leku">vp# </Value>
+      <Value description="Ez dago lekurik, ezezaguna, edo mugagabea">xx#</Value>
+      <Value description="Bi karakteretako kode alfabetikoa">[aa#]</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="18-21" name="Ilustrazioak" description="Up to four (4) one-character alphabetic codes (recorded in alphabetical order) that indicate the presence of types of illustrations in the item. If fewer than four alphabetic codes are assigned, the codes are left justified and unused positions contain blanks (#)">
+      <Value description="Ilustraziorik ez">#</Value>
+      <Value description="Ilustrazioak">a</Value>
+      <Value description="Mapak">b</Value>
+      <Value description="Erretratuak">c</Value>
+      <Value description="Grafikoak">d</Value>
+      <Value description="Planoak">e</Value>
+      <Value description="Irudiak">f</Value>
+      <Value description="Musika">g</Value>
+      <Value description="Faksimileak">h</Value>
+      <Value description="Armarriak">i</Value>
+      <Value description="Taula genealogikoak">j</Value>
+      <Value description="Inprimakiak">k</Value>
+      <Value description="Ereduak">l</Value>
+      <Value description="Diskoak">m</Value>
+      <Value description="Argazkiak">o</Value>
+      <Value description="Edertzapenak">p</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="22" name="Hartzaile maila" description="One- character alphabetic code that describes the intellectual level of the target audience for which the material is intended">
+      <Value description="Ezezaguna edo ez zehaztuta">#</Value>
+      <Value description="Eskolaurrekoa">a</Value>
+      <Value description="Lehen mailako irakaskuntza">b</Value>
+      <Value description="Aurre-nerabea">c</Value>
+      <Value description="Nerabea">d</Value>
+      <Value description="Heldua">e</Value>
+      <Value description="Espezializatua">f</Value>
+      <Value description="Orokorra">g</Value>
+      <Value description="Gaztea">j</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="23" name="Item-aren forma" description="One character alphabetic code that specifies the form of material for the item">
+      <Value description="Ez da hurrengoetako inongoa">#</Value>
+      <Value description="Mikrofilma">a</Value>
+      <Value description="Mikrofitxa">b</Value>
+      <Value description="Mikroopakua">c</Value>
+      <Value description="Inprimatze handikoa">d</Value>
+      <Value description="Braille">f</Value>
+      <Value description="Online">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Inprimatze erregularreko erreprodukzioa">r</Value>
+      <Value description="Elektronikoa">s</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="24-27" name="Eduki mota" description="Up to four one-character codes that indicate whether a significant part of the item is or contains certain types of material. If fewer than four codes are assigned, the codes are left justified and unused positions contain blanks (#)">
+      <Value description="Zehaztugabea">#</Value>
+      <Value description="Offprints">2</Value>
+      <Value description="Egutegiak">5</Value>
+      <Value description="Komikiak">6</Value>
+      <Value description="Laburpenak.">a</Value>
+      <Value description="Bibliografiak">b</Value>
+      <Value description="Katalogoak">c</Value>
+      <Value description="Hiztegiak.">d</Value>
+      <Value description="Enziklopediak">e</Value>
+      <Value description="Manualak">f</Value>
+      <Value description="Lege-artikuluak">g</Value>
+      <Value description="Indexak.">i</Value>
+      <Value description="Patenteak">j</Value>
+      <Value description="Diskografiak">k</Value>
+      <Value description="Legeak.">l</Value>
+      <Value description="Tesiak.">m</Value>
+      <Value description="Inkestak.">n</Value>
+      <Value description="Orrazketak">o</Value>
+      <Value description="Testu programatuak">p</Value>
+      <Value description="Filmografiak.">q</Value>
+      <Value description="Directorioak">r</Value>
+      <Value description="Estadistikak">s</Value>
+      <Value description="Txosten teknikoak">t</Value>
+      <Value description="Arauak">u</Value>
+      <Value description="Lege-kasuak">v</Value>
+      <Value description="Lege-txostenak">w</Value>
+      <Value description="Urtekariak">y</Value>
+      <Value description="Tratatuak.">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="28" name="Argitalpen ofiziala" description="One-character code that indicates whether or not the item is published or produced by or for an international, national, state, provincial, or local government agency, or by any subdivision of such a body">
+      <Value description="Ez da argitalpen ofiziala">#</Value>
+      <Value description="Autonomoa edo erdi-autonomoaren osagaia">a</Value>
+      <Value description="Multilokala">c</Value>
+      <Value description="Federala / Nazionala">f</Value>
+      <Value description="Nazioartekoa Intergubernukoa">i</Value>
+      <Value description="Lokala">l</Value>
+      <Value description="Multiestatua">m</Value>
+      <Value description="Gubernuko argiltarpena-maila zehaztugabea">o</Value>
+      <Value description="Estatukoa, probintziala, lurraldekoa, mendekoa, eta abar.">s</Value>
+      <Value description="Ezezaguna item-a gobernuko argitalpena bada">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="29" name="Kongresu-argitalpena" description="One-character code that indicates whether the item consists of the proceedings, reports, or summaries of a conference.">
+      <Value description="Es da kongresu-argitalpena">0</Value>
+      <Value description="Kongresua">1</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="30" name="Omenaldiak" description="One-character code that indicates whether the item is a festschrift">
+      <Value description="Ez da omenaldia">0</Value>
+      <Value description="Omenaldia">1</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="31" name="Indizea" description="One-character numeric code that indicates whether the item includes an index to its own contents">
+      <Value description="Ez da indizea">0</Value>
+      <Value description="Badago indizea">1</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="32" name="Zehaztugabea" description="Zuri bat (#) edo karaktere betegarria (|) du."/>
+    <Position pos="33" name="Forma literarioa" description="One-character code used to indicate the literary form of an item. Numeric codes 0 and 1 provide a generic identification of whether or not the item is a work of fiction. Alphabetic codes may be used to identify specific literary forms.">
+      <Value description="Ez da fikzioa">0</Value>
+      <Value description="Fikzioa">1</Value>
+      <Value description="Dramak">d</Value>
+      <Value description="Saiakerak">e</Value>
+      <Value description="Eleberriak">f</Value>
+      <Value description="Umorea">h</Value>
+      <Value description="Gutunak">i</Value>
+      <Value description="Istorio motzak">j</Value>
+      <Value description="Forma mistoak">m</Value>
+      <Value description="Olerkia">p</Value>
+      <Value description="Diskurtsoak">s</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="34" name="Biografia" description="One-character alphabetic code that indicates whether or not an item contains biographical material, and if so, what the biographical characteristics are.">
+      <Value description="Ez da biografia">#</Value>
+      <Value description="Autobiografia">a</Value>
+      <Value description="Biografia indibiduala">b</Value>
+      <Value description="Biografia kolektiboa">c</Value>
+      <Value description="Informazio biografikoa du">d</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="35-37" url="http://www.loc.gov/marc/languages/language_code.html" urltext="MARC Code List for Languages" name="Hizkuntza" description="">
+      <Value description="Ez dago informaziorik">###</Value>
+      <Value description="Hizkuntza anitz">mul</Value>
+      <Value description="Zeinu hizkuntzak">sgn</Value>
+      <Value description="Zehaztugabea">und</Value>
+      <Value description="Eduki linguistikorik ez">zxx</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="38" name="Erregistro aldatuta" description="One-character code that indicates whether any data in a bibliographic record is a modification of information that appeared on the item being cataloged or that was intended to be included in the MARC record.">
+      <Value description="Ez aldatuta">#</Value>
+      <Value description="Informazio egokia alde batera uzten da">d</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto latindarrean inprimatuta">o</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto ez latindarrean inprimatuta">r</Value>
+      <Value description="Laburtuta">s</Value>
+      <Value description="Karaktereak alde batera utzita">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="39" name="Katalogazio iturria" description="">
+      <Value description="Nazio-agentzia bibliografikoa">#</Value>
+      <Value description="Katalogazio programa koperatiboa">c</Value>
+      <Value description="Beste bat">d</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+  </Material>
+  <Material id="CF" name="Ordenagailu-artxiboa" description="">
+    <Position pos="00-05" name="Sartze data" description=""/>
+      <Position pos="06" name="Data mota/Argitaratze egoera" description="">
+      <Value description="Datarik ez">b</Value>
+      <Value description="Baliabide jarraitua orain argitaratzen dena">c</Value>
+      <Value description="Baliabide jarraitua argitaratze geldituta">d</Value>
+      <Value description="Data zehatza">e</Value>
+      <Value description="Bilduman barne dauden datak">i</Value>
+      <Value description="Bilduma gehienaren urte-tartea">k</Value>
+      <Value description="Data anizkunak">m</Value>
+      <Value description="Data ezezagunak">n</Value>
+      <Value description="Banatze data">p</Value>
+      <Value description="Zalantzazko data">q</Value>
+      <Value description="Berrinprimatze data">r</Value>
+      <Value description="Data bakarra ezaguna/daitekeena">s</Value>
+      <Value description="Argitaratze data eta Copyright data">t</Value>
+      <Value description="Baliabide jarraituaren egoera ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="07-10" name="Data 1" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="11-14" name="Data 2" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="15-17" url="http://www.loc.gov/marc/countries/countries_code.html" urltext="MARC Code List for Countries" name="Argitaratze lekua" description="">
+      <Value description="Hainbat leku">vp# </Value>
+      <Value description="Lekurik ez, ezezaguna, edo zehaztugabea">xx#</Value>
+      <Value description="Bi karakteretako kode alfabetikoa">[aa#]</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="18-21" name="Zehaztugabea" description="Each one contains a blank (#) or a fill character (|)"/>
+    <Position pos="22" name="Hartzaile maila" description="One- character alphabetic code that describes the intellectual level of the target audience for which the material is intended">
+      <Value description="Ezezaguna edo zehaztugabea">#</Value>
+      <Value description="Eskolaurrekoa">a</Value>
+      <Value description="Lehen mailako irakaskuntza">b</Value>
+      <Value description="Aurre-nerabea">c</Value>
+      <Value description="Nerabea">d</Value>
+      <Value description="Heldua">e</Value>
+      <Value description="Espezializatua">f</Value>
+      <Value description="Orokorra">g</Value>
+      <Value description="Gaztea">j</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="23" name="Item-aren forma" description="One-character alphabetic code that specifies the form of material for the item">
+      <Value description="Ezezaguna edo ez zehaztua">#</Value>
+      <Value description="Online">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="24-25" name="Zehaztugabea" description="Two undefined character positions; each contains a blank (#) or a fill character (|)."/>
+    <Position pos="26" name="Ordenagailu-artxibo mota " description="One-character alphabetic code that indicates the type of computer file described in the bibliographic record">
+      <Value description="Zenbakizko datuak">a</Value>
+      <Value description="Ordenagailu-programa">b</Value>
+      <Value description="Informazio grafikoa">c</Value>
+      <Value description="Dokumentua">d</Value>
+      <Value description="Datu bibliografikoak">e</Value>
+      <Value description="Iturria">f</Value>
+      <Value description="Jokoa">g</Value>
+      <Value description="Soinua">h</Value>
+      <Value description="Multimedia interaktiboa">i</Value>
+      <Value description="Online sistema edo zerbitzua">j</Value>
+      <Value description="Konbinazioa">m</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="27" name="Zehaztugabea" description="One-character code that contains a blank (#) or a fill character (|)"/>
+    <Position pos="28" name="Argitalpen ofiziala" description="One-character code that indicates whether or not the item is published or produced by or for an international, national, state, provincial, or local government agency, or by any subdivision of such a body">
+      <Value description="Ez da argitalpen ofiziala">#</Value>
+      <Value description="Autonomoa edo erdi-autonomoaren osagaia">a</Value>
+      <Value description="Multilokala">c</Value>
+      <Value description="Federala / Nazionala">f</Value>
+      <Value description="Nazioartekoa Intergubernukoa">i</Value>
+      <Value description="Lokala">l</Value>
+      <Value description="Multiestatua">m</Value>
+      <Value description="Gubernuko argiltarpena-maila zehaztugabea">o</Value>
+      <Value description="Estatukoa, probintziala, lurraldekoa, mendekoa, eta abar.">s</Value>
+      <Value description="Ezezaguna item-a gobernuko argitalpena bada">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="29-34" name="Zehaztugabea" description="Six undefined character positions; each contains a blank (#) or a fill character (|)."/>
+    <Position pos="35-37" url="http://www.loc.gov/marc/languages/language_code.html" urltext="MARC Code List for Languages" name="Hizkuntza" description="">
+      <Value description="Ez dago informaziorik">###</Value>
+      <Value description="Hizkuntza anitz">mul</Value>
+      <Value description="Zeinu hizkuntzak">sgn</Value>
+      <Value description="Zehaztugabea">und</Value>
+      <Value description="Eduki linguistikorik ez">zxx</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="38" name="Erregistro aldatuta" description="One-character code that indicates whether any data in a bibliographic record is a modification of information that appeared on the item being cataloged or that was intended to be included in the MARC record.">
+      <Value description="Ez aldatuta">#</Value>
+      <Value description="Informazio egokia alde batera uzten da">d</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto latindarrean inprimatuta">o</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto ez latindarrean inprimatuta">r</Value>
+      <Value description="Laburtuta">s</Value>
+      <Value description="Karaktere ezikusiak">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="39" name="Katalogazio iturria" description="">
+      <Value description="Nazio-Agentzia Bibliografikoa">#</Value>
+      <Value description="Katalogatzeko programa kooperatiboa">c</Value>
+      <Value description="Beste bat">d</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+  </Material>
+  <Material id="MP" name="Mapak" description="">
+    <Position pos="00-05" name="Sartze data" description=""/>
+    <Position pos="06" name="Data mota/Argitaratze egoera" description="">
+      <Value description="Datarik ez">b</Value>
+      <Value description="Baliabide jarraitua orain argitaratzen dena">c</Value>
+      <Value description="Baliabide jarraitua argitaratze geldituta">d</Value>
+      <Value description="Data zehatza">e</Value>
+      <Value description="Bilduman barne dauden datak">i</Value>
+      <Value description="Bilduma gehienaren urte-tartea">k</Value>
+      <Value description="Data anizkunak">m</Value>
+      <Value description="Data ezezagunak">n</Value>
+      <Value description="Banatze data">p</Value>
+      <Value description="Zalantzazko data">q</Value>
+      <Value description="Berrinprimatze data">r</Value>
+      <Value description="Data bakarra ezaguna/daitekeena">s</Value>
+      <Value description="Argitaratze data eta Copyright data">t</Value>
+      <Value description="Baliabide jarraituaren egoera ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="07-10" name="Data 1" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="11-14" name="Data 2" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="15-17" url="http://www.loc.gov/marc/countries/countries_code.html" urltext="MARC Code List for Countries" name="Argitaratze lekua" description="">
+      <Value description="Hainbat leku">vp# </Value>
+      <Value description="Ez dago lekurik, ezezaguna, edo mugagabea">xx#</Value>
+      <Value description="Bi karakteretako kode alfabetikoa">[aa#]</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="18-21" name="Erliebe" description="Up to four one-character alphabetic codes that indicate the relief type specified on the item. Codes are recorded in order of their importance to the described item. If fewer than four codes are assigned, the codes are left justified and each unused position contains a blank (#).">
+      <Value description="Erlieberik ez"># </Value>
+      <Value description="Sestra-kurbak">a</Value>
+      <Value description="Marradura">b</Value>
+      <Value description="Tinta batrimetrikoak eta gradienteak">c</Value>
+      <Value description="Bilbeak">d</Value>
+      <Value description="Zunda bidez batrimetria">e</Value>
+      <Value description="Forma-lineak">f</Value>
+      <Value description="Kotak">g</Value>
+      <Value description="Piktorialki">i</Value>
+      <Value description="Lurraren formak">j</Value>
+      <Value description="Batimetria/ isolineak">k</Value>
+      <Value description="Labar-pinturak">m</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="22-23" name="Proiekzioa" description="Two-character alphabetic code that indicates the projection used in producing the item.">
+      <Value description="Proiekzioa ez zehaztua">##</Value>
+      <Value description="Aitoff ">aa</Value>
+      <Value description="Gnomic">ab</Value>
+      <Value description="Lambert's azimuthal equal area">ac</Value>
+      <Value description="Orthographic">ad</Value>
+      <Value description="Azimuthal equidistant">ae</Value>
+      <Value description="Stereographic">af</Value>
+      <Value description="General vertical near-sided">ag</Value>
+      <Value description="Modified stereographic for Alaska">am</Value>
+      <Value description="Chamberlin trimetric">an</Value>
+      <Value description="Polar stereographic">ap</Value>
+      <Value description="Azimuthal, specific type unknown">au</Value>
+      <Value description="Azimutal, other">az</Value>
+      <Value description="Gall ">ba</Value>
+      <Value description="Goode's homolographic">bb</Value>
+      <Value description="Lambert's cylindrical equal area">bc</Value>
+      <Value description="Mercator">bd</Value>
+      <Value description="Miller ">be</Value>
+      <Value description="Mollweide ">bf</Value>
+      <Value description="Sinusoidal ">bg</Value>
+      <Value description="Transverse Mercator">bh</Value>
+      <Value description="Gauss-Kruger ">bi</Value>
+      <Value description="Equirectangular ">bj</Value>
+      <Value description="Krovak">bk</Value>
+      <Value description="Cassini-Soldner">bl</Value>
+      <Value description="Oblique Mercator">bo</Value>
+      <Value description="Robinson ">br</Value>
+      <Value description="Space oblique Mercator">bs</Value>
+      <Value description="Cylindrical, specific type unknown">bu</Value>
+      <Value description="Cylindrical, other">bz</Value>
+      <Value description="Albers equal area">ca</Value>
+      <Value description="Bonne ">cb</Value>
+      <Value description="Lambert's conformal conic">cc</Value>
+      <Value description="Equidistant conic">ce</Value>
+      <Value description="Polyconic">cp</Value>
+      <Value description="Conic, specific type unknown">cu</Value>
+      <Value description="Conic, other">cz</Value>
+      <Value description="Armadillo ">da</Value>
+      <Value description="Butterfly ">db</Value>
+      <Value description="Eckert ">dc</Value>
+      <Value description="Goode's homolosine">dd</Value>
+      <Value description="Miller's bipolar oblique conformal conic">de</Value>
+      <Value description="Van Der Grinten ">df</Value>
+      <Value description="Dimaxión ">dg</Value>
+      <Value description="Cordiform">dh</Value>
+      <Value description="Lambert conformal ">dl</Value>
+      <Value description="Beste bat">zz</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="24" name="Zehaztugabea" description="Undefined; contains a blank (#) or a fill character (|)."/>
+    <Position pos="25" name="Material kartografiko-mota" description="One-character alphabetic code that indicates the type of cartographic item described.">
+      <Value description="Mapa soltea">a</Value>
+      <Value description="Mapa-bilduma">b</Value>
+      <Value description="Aldizkako mapa-argitalpena">c</Value>
+      <Value description="Globo">d</Value>
+      <Value description="Atlas ">e</Value>
+      <Value description="Mapa soltea, beste lan baten eranskina">f</Value>
+      <Value description="Beste lan batean sartutako mapa">g</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="26-27" name="Zehaztugabea" description="Each contains a blank (#) or a fill character (|)"/>
+    <Position pos="28" name="Argitalpen ofiziala" description="One-character code that indicates whether or not the item is published or produced by or for an international, national, state, provincial, or local government agency, or by any subdivision of such a body">
+      <Value description="Ez da argitalpen ofiziala">#</Value>
+      <Value description="Autonomoa edo erdi-autonomoaren osagaia">a</Value>
+      <Value description="Multilokala">c</Value>
+      <Value description="Federala / Nazionala">f</Value>
+      <Value description="Nazioartekoa Intergubernukoa">i</Value>
+      <Value description="Lokala">l</Value>
+      <Value description="Multiestatua">m</Value>
+      <Value description="Gubernuko argiltarpena-maila zehaztugabea">o</Value>
+      <Value description="Estatukoa, probintziala, lurraldekoa, mendekoa, eta abar.">s</Value>
+      <Value description="Ezezaguna item-a gobernuko argitalpena bada">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="29" name="Item-aren forma" description="One-character alphabetic code that indicates the form of material for the item.">
+      <Value description="Ez da hurrengoetako inongoa">#</Value>
+      <Value description="Mikrofilma">a</Value>
+      <Value description="Mikrofitxa">b</Value>
+      <Value description="Mikroopakua">c</Value>
+      <Value description="Inprimatze handikoa">d</Value>
+      <Value description="Braille">f</Value>
+      <Value description="Online">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Inprimatze erregularreko erreprodukzioa">r</Value>
+      <Value description="Elektronikoa">s</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="30" name="Zehaztugabea" description="Contains a blank (#) or a fill character (|)."/>
+    <Position pos="31" name="Indexa" description="One-character numeric code that indicates whether the item or accompanying material includes a location index or gazetteer.">
+      <Value description="Indexarik ez">0</Value>
+      <Value description="Badago indexa">1</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="32" name="Zehaztugabea" description="Zuri bat (#) edo karaktere betegarria (|) du."/>
+    <Position pos="33-34" name="Formatu bereziaren ezaugarriak" description="Up to two one-character alphabetic codes that indicate the special format characteristics of the map. Codes are recorded in order of their importance to the described item. If only one code is assigned, it is left justified and the unused position contains a blank (#).">
+      <Value description="Zehaztugabea">#</Value>
+      <Value description="Eskuizkribua">e</Value>
+      <Value description="Irudiak, posta-txartelak">j</Value>
+      <Value description="Egutegia">k</Value>
+      <Value description="Puzzle">l</Value>
+      <Value description="Jokoa">n</Value>
+      <Value description="Horma-mapa">o</Value>
+      <Value description="Jokatzeko txartelak">p</Value>
+      <Value description="Orri solteak">r</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="35-37" url="http://www.loc.gov/marc/languages/language_code.html" urltext="MARC Code List for Languages" name="Hizkuntza" description="">
+      <Value description="Ez dago informaziorik">###</Value>
+      <Value description="Hizkuntza anitz">mul</Value>
+      <Value description="Zeinu hizkuntzak">sgn</Value>
+      <Value description="Zehaztugabea">und</Value>
+      <Value description="Eduki linguistikorik ez">zxx</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="38" name="Erregistro aldatuta" description="One-character code that indicates whether any data in a bibliographic record is a modification of information that appeared on the item being cataloged or that was intended to be included in the MARC record.">
+      <Value description="Ez aldatuta">#</Value>
+      <Value description="Informazio egokia alde batera uzten da">d</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto latindarrean inprimatuta">o</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto ez latindarrean inprimatuta">r</Value>
+      <Value description="Laburtuta">s</Value>
+      <Value description="Karaktere ezikusiak">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="39" name="Katalogazio iturria" description="">
+      <Value description="Nazio-Agentzia Bibliografikoa">#</Value>
+      <Value description="Katalogatzeko programa kooperatiboa">c</Value>
+      <Value description="Beste bat">d</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+  </Material>
+  <Material id="MU" name="Musika" description="">
+    <Position pos="00-05" name="Sartze data" description=""/>
+    <Position pos="06" name="Data mota/Argitaratze egoera" description="">
+      <Value description="Datarik ez">b</Value>
+      <Value description="Baliabide jarraitua orain argitaratzen dena">c</Value>
+      <Value description="Baliabide jarraitua argitaratze geldituta">d</Value>
+      <Value description="Data zehatza">e</Value>
+      <Value description="Bilduman barne dauden datak">i</Value>
+      <Value description="Bilduma gehienaren urte-tartea">k</Value>
+      <Value description="Data anizkunak">m</Value>
+      <Value description="Data ezezagunak">n</Value>
+      <Value description="Banatze data">p</Value>
+      <Value description="Zalantzazko data">q</Value>
+      <Value description="Berrinprimatze data">r</Value>
+      <Value description="Data bakarra ezaguna/daitekeena">s</Value>
+      <Value description="Argitaratze data eta Copyright data">t</Value>
+      <Value description="Baliabide jarraituaren egoera ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="07-10" name="Data 1" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="11-14" name="Data 2" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="15-17" url="http://www.loc.gov/marc/countries/countries_code.html" urltext="MARC Code List for Countries" name="Argitaratze lekua" description="">
+      <Value description="Hainbat leku">vp# </Value>
+      <Value description="Ez dago lekurik, ezezaguna, edo mugagabea">xx#</Value>
+      <Value description="Bi karakteretako kode alfabetikoa">[aa#]</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="18-19" name="Konposizio-forma" description="">
+      <Value description="Anthems">an</Value>
+      <Value description="Ballads">bd</Value>
+      <Value description="Bluegrass music">bg</Value>
+      <Value description="Blues ">bl</Value>
+      <Value description="Ballets ">bt</Value>
+      <Value description="Chaconnes">ca</Value>
+      <Value description="Chants, Other religions">cb</Value>
+      <Value description="Chants, Christian">cc</Value>
+      <Value description="Concerti grossi ">cg</Value>
+      <Value description="Chorales">ch</Value>
+      <Value description="Chorale preludes">cl</Value>
+      <Value description="Canons and rounds">cn</Value>
+      <Value description="Concertos">co</Value>
+      <Value description="Chansons, polyphonic">cp</Value>
+      <Value description="Carols">cr</Value>
+      <Value description="Chance compositions">cs</Value>
+      <Value description="Cantatas">ct</Value>
+      <Value description="Country music">cy</Value>
+      <Value description="Canzonas">cz</Value>
+      <Value description="Dance forms">df</Value>
+      <Value description="Divertimentos, serenades, cassations, divertissements, and notturni">dv</Value>
+      <Value description="Fugues">fg</Value>
+      <Value description="Flamenco">fl</Value>
+      <Value description="Folk music">fm</Value>
+      <Value description="Fantasias ">ft</Value>
+      <Value description="Gospel music">gm</Value>
+      <Value description="Hymns">hy</Value>
+      <Value description="Jazz">jz</Value>
+      <Value description="Musical revues and comedies">mc</Value>
+      <Value description="Madrigals">md</Value>
+      <Value description="Minuets ">mi</Value>
+      <Value description="Motets">mo</Value>
+      <Value description="Motion picture music">mp</Value>
+      <Value description="Marches">mr</Value>
+      <Value description="Masses">ms</Value>
+      <Value description="Multiple forms">mu</Value>
+      <Value description="Mazurkas">mz</Value>
+      <Value description="Nocturnes">nc</Value>
+      <Value description="Not applicable">nn</Value>
+      <Value description="Operas">op</Value>
+      <Value description="Oratorios ">or</Value>
+      <Value description="Overtures">ov</Value>
+      <Value description="Program music">pg</Value>
+      <Value description="Passion music">pm</Value>
+      <Value description="Polonaises">po</Value>
+      <Value description="Popular music">pp</Value>
+      <Value description="Preludes">pr</Value>
+      <Value description="Passacaglias">ps</Value>
+      <Value description="Part-songs">pt</Value>
+      <Value description="Pavans">pv</Value>
+      <Value description=" Rock music">rc</Value>
+      <Value description="Rondos">rd</Value>
+      <Value description="Ragtime music">rg</Value>
+      <Value description="Ricercars ">ri</Value>
+      <Value description="Rhapsodies">rp</Value>
+      <Value description="Requiems ">rq</Value>
+      <Value description="Square dance music">sd</Value>
+      <Value description="Songs">sg</Value>
+      <Value description="Sonatas ">sn</Value>
+      <Value description="Symphonic poems">sp</Value>
+      <Value description="Studies and exercises">st</Value>
+      <Value description="Suites ">su</Value>
+      <Value description="Symphonies">sy</Value>
+      <Value description="Toccatas">tc</Value>
+      <Value description="Teatro lirico">tl</Value>
+      <Value description="Trio-sonatas">ts</Value>
+      <Value description="Unknown">uu</Value>
+      <Value description="Villacincos">vi</Value>
+      <Value description="Variations">vr</Value>
+      <Value description="Waltzers">wz</Value>
+      <Value description="Zarzuelas">za</Value>
+      <Value description="Beste bat">zz</Value>
+      <Value description="Ez da kodifikatzea saiatu">||</Value>
+    </Position>
+    <Position pos="20" name="Musika formatua" description="One-character code that indicates the format of a musical composition (e.g., piano-conductor score).">
+      <Value description="Full score">a</Value>
+      <Value description="Full score, miniature or study size">b</Value>
+      <Value description="Accompaniment reduced for keyboard">c</Value>
+      <Value description="Voice score">d</Value>
+      <Value description="Condensed score or piano-conductor score">e</Value>
+      <Value description="Close score">g</Value>
+      <Value description="Chorus score">h</Value>
+      <Value description="Condensed score">i</Value>
+      <Value description="Performer-conductor part">j</Value>
+      <Value description="Multiple score formats">m</Value>
+      <Value description="Ez da aplikagarria">n</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="21" name="Parte musikalak" description="">
+      <Value description="Parte musikalarik ez edo zehaztugabeak">#</Value>
+      <Value description="Instrumental and vocal parts">d</Value>
+      <Value description="Instrumental parts">e</Value>
+      <Value description="Vocal parts">f</Value>
+      <Value description="Ez da aplikagarria">n</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="22" name="Hartzaile maila" description="One- character alphabetic code that describes the intellectual level of the target audience for which the material is intended">
+      <Value description="Ezezaguna edo zehaztugabea">#</Value>
+      <Value description="Eskolaurrekoa">a</Value>
+      <Value description="Lehen mailako irakaskuntza">b</Value>
+      <Value description="Aurre-nerabea">c</Value>
+      <Value description="Nerabea">d</Value>
+      <Value description="Heldua">e</Value>
+      <Value description="Espezializatua">f</Value>
+      <Value description="Orokorra">g</Value>
+      <Value description="Gaztea">j</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="23" name="Item-aren forma" description="One-character alphabetic code that indicates the form of material for the item.">
+      <Value description="Ez da hurrengoetako inongoa">#</Value>
+      <Value description="Mikrofilma">a</Value>
+      <Value description="Mikrofitxa">b</Value>
+      <Value description="Mikroopakua">c</Value>
+      <Value description="Inprimatze handikoa">d</Value>
+      <Value description="Braille">f</Value>
+      <Value description="Online">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Inprimatze erregularreko erreprodukzioa">r</Value>
+      <Value description="Elektronikoa">s</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="24-29" name="Accompanying matter" description="Up to six one-character alphabetic codes (recorded in alphabetical order) that indicate the contents of program notes and other accompanying material for sound recording, music manuscripts, or notated music. If fewer than six codes are assigned, the codes are left justified and each unused position contains a blank (#).">
+      <Value description="No accompanying matter">#</Value>
+      <Value description="Discography">a</Value>
+      <Value description="Bibliography">b</Value>
+      <Value description="Thematic indez">c</Value>
+      <Value description="Libretto or text">d</Value>
+      <Value description="Bibliography of composer or autor">e</Value>
+      <Value description="Biography of performer or history of ensemble">f</Value>
+      <Value description="Technical and/or historical information on instruments">g</Value>
+      <Value description="Technical information on music">h</Value>
+      <Value description="Historical information">i</Value>
+      <Value description="Ethnological information">k</Value>
+      <Value description="Instrutional materials">r</Value>
+      <Value description="Music">s</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="30-31" name="Literary text for sound recordings " description="Up to two one-character codes (recorded in the order of the following list) that indicate the type of literary text contained in a nonmusical sound recording. If only one code is assigned, it is left justified and the unused position contains a blank (#).">
+      <Value description="Item is a music sound recording">#</Value>
+      <Value description="Autobiography">a</Value>
+      <Value description="Biography">b</Value>
+      <Value description="Conference proceedings">c</Value>
+      <Value description="Drama ">d</Value>
+      <Value description="Essays">e</Value>
+      <Value description="Fiction">f</Value>
+      <Value description="Reporting">g</Value>
+      <Value description="History">h</Value>
+      <Value description="Instruction">i</Value>
+      <Value description="Language instruction">j</Value>
+      <Value description="Comedy">k</Value>
+      <Value description="Lectures, speeches">l</Value>
+      <Value description="Memoirs">m</Value>
+      <Value description="Not applicable">n</Value>
+      <Value description="Folktales">o</Value>
+      <Value description="Poetry">p</Value>
+      <Value description="Rehearsals">r</Value>
+      <Value description="Sounds">s</Value>
+      <Value description="Interviews">t</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="32" name="Zehaztugabea" description="Undefined; contains a blank (#) or a fill character (|)."/>
+    <Position pos="33" name="Transposition and arrangement" description="Whether all or part of the item being cataloged is a transposition and/or arrangement of another work.">
+      <Value description="Not arrangement or transposition or not specified">#</Value>
+      <Value description="Transposition">a</Value>
+      <Value description="Arragement">b</Value>
+      <Value description="Both transposed and arranged">c</Value>
+      <Value description="Ez da aplikagarria">n</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="34" name="Zehaztugabea" description="Undefined; contains a blank (#) or a fill character (|)."/>
+    <Position pos="35-37" url="http://www.loc.gov/marc/languages/language_code.html" urltext="MARC Code List for Languages" name="Language" description="">
+      <Value description="No information provided">###</Value>
+      <Value description="Hizkuntza anitz">mul</Value>
+      <Value description="Zeinu hizkuntzak">sgn</Value>
+      <Value description="Zehaztugabea">und</Value>
+      <Value description="Eduki linguistikorik ez">zxx</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="38" name="Erregistro aldatuta" description="One-character code that indicates whether any data in a bibliographic record is a modification of information that appeared on the item being cataloged or that was intended to be included in the MARC record.">
+      <Value description="Ez aldatuta">#</Value>
+      <Value description="Informazio egokia alde batera uzten da">d</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto latindarrean inprimatuta">o</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto ez latindarrean inprimatuta">r</Value>
+      <Value description="Laburtuta">s</Value>
+      <Value description="Karaktere ezikusiak">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="39" name="Katalogazio iturria" description="">
+      <Value description="Nazio-Agentzia Bibliografikoa">#</Value>
+      <Value description="Katalogatzeko programa kooperatiboa">c</Value>
+      <Value description="Beste bat">d</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+  </Material>
+  <Material id="CR" name="Baliabide jarraituak" description="">
+    <Position pos="00-05" name="Sartze data" description=""/>
+    <Position pos="06" name="Data mota/Argitaratze egoera" description="">
+      <Value description="Ez dago datarik">b</Value>
+      <Value description="Baliabide jarraitua orain argitaratzen dena">c</Value>
+      <Value description="Baliabide jarraitua argitaratze geldituta">d</Value>
+      <Value description="Data zehatza">e</Value>
+      <Value description="Bilduman barne dauden datak">i</Value>
+      <Value description="Bilduma gehienaren urte-tartea">k</Value>
+      <Value description="Data anizkunak">m</Value>
+      <Value description="Data ezezagunak">n</Value>
+      <Value description="Banatze data">p</Value>
+      <Value description="Zalantzazko data">q</Value>
+      <Value description="Berrinprimatze data">r</Value>
+      <Value description="Data bakarra ezaguna/daitekeena">s</Value>
+      <Value description="Argitaratze data eta Copyright data">t</Value>
+      <Value description="Baliabide jarraituaren egoera ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="07-10" name="Data 1" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="11-14" name="Data 2" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="15-17" url="http://www.loc.gov/marc/countries/countries_code.html" urltext="MARC Code List for Countries" name="Argitaratze lekua" description="">
+      <Value description="Hainbat leku">vp# </Value>
+      <Value description="Ez dago lekurik, ezezaguna, edo mugagabea">xx#</Value>
+      <Value description="Bi karakteretako kode alfabetikoa">[aa#]</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="18" name="Maiztasuna" description="One-character alphabetic code that indicates the frequency of an item; used in conjunction with 008/19 (Regularity).">
+      <Value description="No determinable frequency">#</Value>
+      <Value description="Annual">a</Value>
+      <Value description="Bimonthly">b</Value>
+      <Value description="Semiweekly">c</Value>
+      <Value description="Daily">d</Value>
+      <Value description="Biweekly">e</Value>
+      <Value description="Semiannual">f</Value>
+      <Value description="Biennial">g</Value>
+      <Value description="Triennial">h</Value>
+      <Value description="Three times a week">i</Value>
+      <Value description="Three times a month">j</Value>
+      <Value description="Continuously updated">k</Value>
+      <Value description="Monthly">m</Value>
+      <Value description="Quarterly">q</Value>
+      <Value description="Semimonthly">s</Value>
+      <Value description="Three times a year">t</Value>
+      <Value description="Unknown">u</Value>
+      <Value description="Weekly">w</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="19" name="Erregulartasuna" description="One-character alphabetic code that indicates the intended regularity of an item; used in conjunction with 008/18 (Frequency).">
+      <Value description="Normalized irregular">n</Value>
+      <Value description="Regular ">r</Value>
+      <Value description="Unknown">u</Value>
+      <Value description="Completely irregular">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="20" name="Zehaztugabea" description="Undefined; contains a blank (#) or a fill character (|)."/>
+    <Position pos="21" name="Type of continuing resource" description="One-character alphabetic code that indicates the type of continuing resource.">
+      <Value description="None of the following">#</Value>
+      <Value description="Updating database">d</Value>
+      <Value description="Updating loose-leaf">l</Value>
+      <Value description="Monographic series">m</Value>
+      <Value description="Newspaper">n</Value>
+      <Value description="Periodical">p</Value>
+      <Value description="Updating web site">w</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="22" name="Item originalaren forma" description="One-character alphabetic code that indicates the form of material in which an item was originally published.">
+      <Value description="None of the following">#</Value>
+      <Value description="Microfilm">a</Value>
+      <Value description="Microfiche">b</Value>
+      <Value description="Microopaque">c</Value>
+      <Value description="Large print">d</Value>
+      <Value description="Newspaper format">e</Value>
+      <Value description="Braille ">f</Value>
+      <Value description="Online.  The resource is accessed by means of hardware and software connections to a communications network. If a distinction between types of electronic resources is not necessary, code s can be used as a generic code for any form of electronic resource.">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Electronic. Intended for manipulation by a computer. May reside in a carrier accessed either directly or remotely, in some cases requiring the use of peripheral devices attached to the computer (e.g., a CD-ROM player). Not used for items that do not requi">s</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="23" name="Item-aren forma" description="One-character alphabetic code that specifies the form of material for the item being described">
+      <Value description="Ez da hurrengoetako inongoa">#</Value>
+      <Value description="Mikrofilma">a</Value>
+      <Value description="Mikrofitxa">b</Value>
+      <Value description="Mikroopakua">c</Value>
+      <Value description="Inprimatze handikoa">d</Value>
+      <Value description="Braille">f</Value>
+      <Value description="Online">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Inprimatze erregularreko erreprodukzioa">r</Value>
+      <Value description="Elektronikoa">s</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="24" name="Lan guztiaren edukia" description="">
+      <Value description="Not specified">#</Value>
+      <Value description="Calendars">5</Value>
+      <Value description="Comics/graphic novels">6</Value>
+      <Value description="Abstracts/ summaries">a</Value>
+      <Value description="Bibliographies">b</Value>
+      <Value description="Catalogs">c</Value>
+      <Value description="Dictionaries. Also used for a glossary or a gazetteer.">d</Value>
+      <Value description="Encyclopedias">e</Value>
+      <Value description="Handbooks">f</Value>
+      <Value description="Legal articles">g</Value>
+      <Value description="Biography">h</Value>
+      <Value description="Indexes. Index to bibliographical material other than itself. Not used when a publication contains an index to its own content.">i</Value>
+      <Value description="Discographies">k</Value>
+      <Value description="Legislation. Full or partial text of enactments of legislative bodies, published either in statute or in code form, or text of rules and regulations issued by executive or adminitrative agencies.">l</Value>
+      <Value description="Theses">m</Value>
+      <Value description="Survey of literature in a subject area">n</Value>
+      <Value description="Reviews">o</Value>
+      <Value description="Programmed texts">p</Value>
+      <Value description="Filmographies">q</Value>
+      <Value description="Directories">r</Value>
+      <Value description="Statistics">s</Value>
+      <Value description="Technical reports">t</Value>
+      <Value description="Standards/ specifications">u</Value>
+      <Value description="Legal cases and case notes">v</Value>
+      <Value description="Law reorts and digests">w</Value>
+      <Value description="Yearbooks">y</Value>
+      <Value description="Teatries">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="25-27" name="Eduki mota" description="">
+      <Value description="Zehaztugabea">#</Value>
+      <Value description="Calendars">5</Value>
+      <Value description="Comics/graphic novels">6</Value>
+      <Value description="Abstracts/ summaries">a</Value>
+      <Value description="Bibliographies">b</Value>
+      <Value description="Catalogs">c</Value>
+      <Value description="Dictionaries. Also used for a glossary or a gazetteer.">d</Value>
+      <Value description="Encyclopedias">e</Value>
+      <Value description="Handbooks">f</Value>
+      <Value description="Legal articles">g</Value>
+      <Value description="Biography">h</Value>
+      <Value description="Indexes. Index to bibliographical material other than itself. Not used when a publication contains an index to its own content.">i</Value>
+      <Value description="Discographies">k</Value>
+      <Value description="Legislation. Full or partial text of enactments of legislative bodies, published either in statute or in code form, or text of rules and regulations issued by executive or adminitrative agencies.">l</Value>
+      <Value description="Theses">m</Value>
+      <Value description="Survey of literature in a subject area">n</Value>
+      <Value description="Reviews">o</Value>
+      <Value description="Programmed texts">p</Value>
+      <Value description="Filmographies">q</Value>
+      <Value description="Directories">r</Value>
+      <Value description="Statistics">s</Value>
+      <Value description="Technical reports">t</Value>
+      <Value description="Standars/specifications">u</Value>
+      <Value description="Legal cases and case notes">v</Value>
+      <Value description="Law reports and digests">w</Value>
+      <Value description="Treaties">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|||</Value>
+    </Position>
+    <Position pos="28" name="Argitalpen ofiziala" description="One-character code that indicates whether or not the item is published or produced by or for an international, national, state, provincial, or local government agency, or by any subdivision of such a body">
+      <Value description="Ez da argitalpen ofiziala">#</Value>
+      <Value description="Autonomoa edo erdi-autonomoaren osagaia">a</Value>
+      <Value description="Multilokala">c</Value>
+      <Value description="Federala / Nazionala">f</Value>
+      <Value description="Nazioartekoa Intergubernukoa">i</Value>
+      <Value description="Lokala">l</Value>
+      <Value description="Multiestatua">m</Value>
+      <Value description="Gubernuko argiltarpena-maila zehaztugabea">o</Value>
+      <Value description="Estatukoa, probintziala, lurraldekoa, mendekoa, eta abar.">s</Value>
+      <Value description="Ezezaguna item-a gobernuko argitalpena bada">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="29" name="Kongresu-argitalpena" description="One-character numeric code that indicates whether an item consists of the proceedings, reports, or summaries of a conference.">
+      <Value description="Ez da kongresu-argitalpena">0</Value>
+      <Value description="Kongresu-argitalpena">1</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="30-32" name="Zehaztugabea" description="Undefined; each contains a blank (#) or a fill character (|)."/>
+    <Position pos="33" name="Original alphabet or script of title" description="One-character alphabetic code that indicates the original alphabet or script of the language of the title on the source item upon which the key title (field 222) is based.">
+      <Value description="No alphabet or script given / No key title">#</Value>
+      <Value description="Basic Roman">a</Value>
+      <Value description="Extended Roman">b</Value>
+      <Value description="Cyrillic">c</Value>
+      <Value description="Japanese">d</Value>
+      <Value description="Chinese">e</Value>
+      <Value description="Arabic">f</Value>
+      <Value description="Greek">g</Value>
+      <Value description="Hebrew">h</Value>
+      <Value description="Thai ">i</Value>
+      <Value description="Devanagari ">j</Value>
+      <Value description="Korean">k</Value>
+      <Value description="Tamil ">l</Value>
+      <Value description="Unknown">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="34" name="Entry convention" description="One-character numeric code that indicates whether the item was cataloged according to successive entry, latest entry, or integrated entry cataloging conventions.">
+      <Value description="Succesive entry.New bibliographic record is created each time 1) a title changes, or 2) a corporate body used as main entry or uniform title qualifier, changes. The earlier or later title or author/title is recorded in a linking field (field 780/785) on each record.">0</Value>
+      <Value description="Latest entry. Cataloged under its latest (most recent) title or issuing body (pre-AACR cataloging rules). All former titles and/or issuing bodies are given in notes (fields 247, 547, and 550).">1</Value>
+      <Value description="Integrated entry. Cataloged under its latest (most recent) title and/or responsible person or corporate body. Used for integrating resources and electronic serials that do not retain their earlier titles.">2</Value>
+      <Value description="No attempt to code">|</Value>
+    </Position>
+    <Position pos="35-37" url="http://www.loc.gov/marc/languages/language_code.html" urltext="MARC Code List for Languages" name="Hizkuntza" description="">
+      <Value description="Ez dago informaziorik">###</Value>
+      <Value description="Hizkuntza anitz">mul</Value>
+      <Value description="Zeinu hizkuntzak">sgn</Value>
+      <Value description="Zehaztugabea">und</Value>
+      <Value description="Eduki linguistikorik ez">zxx</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="38" name="Erregistro aldatuta" description="One-character code that indicates whether any data in a bibliographic record is a modification of information that appeared on the item being cataloged or that was intended to be included in the MARC record.">
+      <Value description="Ez aldatuta">#</Value>
+      <Value description="Informazio egokia alde batera uzten da">d</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto latindarrean inprimatuta">o</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto ez latindarrean inprimatuta">r</Value>
+      <Value description="Laburtuta">s</Value>
+      <Value description="Karaktere ezikusiak">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="39" name="Katalogazio iturria" description="">
+      <Value description="Nazio-Agentzia Bibliografikoa">#</Value>
+      <Value description="Katalogatzeko programa kooperatiboa">c</Value>
+      <Value description="Beste bat">d</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+  </Material>
+  <Material id="VM" name="Ikus-materialak" description="">
+    <Position pos="00-05" name="Sartze data" description=""/>
+    <Position pos="06" name="Data mota/Argitaratze egoera" description="">
+      <Value description="Datarik ez">b</Value>
+      <Value description="Baliabide jarraitua orain argitaratzen dena">c</Value>
+      <Value description="Baliabide jarraitua argitaratze geldituta">d</Value>
+      <Value description="Data zehatza">e</Value>
+      <Value description="Bilduman barne dauden datak">i</Value>
+      <Value description="Bilduma gehienaren urte-tartea">k</Value>
+      <Value description="Data anizkunak">m</Value>
+      <Value description="Data ezezagunak">n</Value>
+      <Value description="Banatze data">p</Value>
+      <Value description="Zalantzazko data">q</Value>
+      <Value description="Berrinprimatze data">r</Value>
+      <Value description="Data bakarra ezaguna/daitekeena">s</Value>
+      <Value description="Argitaratze data eta Copyright data">t</Value>
+      <Value description="Baliabide jarraituaren egoera ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="07-10" name="Data 1" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="11-14" name="Data 2" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="15-17" url="http://www.loc.gov/marc/countries/countries_code.html" urltext="MARC Code List for Countries" name="Argitaratze lekua" description="">
+      <Value description="Hainbat leku">vp# </Value>
+      <Value description="Ez dago lekurik, ezezaguna, edo mugagabea">xx#</Value>
+      <Value description="Bi karakteretako kode alfabetikoa">[aa#]</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="18-20" name="Running time for motion pictures and videorecordings " description="Three-digit number that indicates the total running time of the motion picture or videorecording. The number is right justified and each unused position contains a zero.">
+      <Value description="Running time exceeds three characters">000</Value>
+      <Value description="Running time">001-999</Value>
+      <Value description="Not applicable">nnn</Value>
+      <Value description="Ez da kodifikatzea saiatu">|||</Value>
+      <Value description="Ezezaguna">                         --- </Value>
+    </Position>
+    <Position pos="21" name="Zehaztugabea" description="Undefined; contains a blank (#) or a fill character (|)."/>
+    <Position pos="22" name="Hartzaile maila" description="One- character alphabetic code that describes the intellectual level of the target audience for which the material is intended">
+      <Value description="Ezezaguna edo zehaztugabea">#</Value>
+      <Value description="Eskolaurrekoa">a</Value>
+      <Value description="Lehen mailako irakaskuntza">b</Value>
+      <Value description="Aurre-nerabea">c</Value>
+      <Value description="Nerabea">d</Value>
+      <Value description="Heldua">e</Value>
+      <Value description="Espezializatua">f</Value>
+      <Value description="Orokorra">g</Value>
+      <Value description="Gaztea">j</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="23-27" name="Zehaztugabea" description="Undefined; each contains a blank (#) or a fill character (|)."/>
+    <Position pos="28" name="Argitalpen ofiziala" description="One-character code that indicates whether or not the item is published or produced by or for an international, national, state, provincial, or local government agency, or by any subdivision of such a body">
+      <Value description="Ez da argitalpen ofiziala">#</Value>
+      <Value description="Autonomoa edo erdi-autonomoaren osagaia">a</Value>
+      <Value description="Multilokala">c</Value>
+      <Value description="Federala / Nazionala">f</Value>
+      <Value description="Nazioartekoa Intergubernukoa">i</Value>
+      <Value description="Lokala">l</Value>
+      <Value description="Multiestatua">m</Value>
+      <Value description="Gubernuko argiltarpena-maila zehaztugabea">o</Value>
+      <Value description="Estatukoa, probintziala, lurraldekoa, mendekoa, eta abar.">s</Value>
+      <Value description="Ezezaguna item-a gobernuko argitalpena bada">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="29" name="Item-aren forma" description="One-character alphabetic code that indicates the form of material for the item.">
+      <Value description="Ez da hurrengoetako inongoa">#</Value>
+      <Value description="Mikrofilma">a</Value>
+      <Value description="Mikrofitxa">b</Value>
+      <Value description="Mikroopakua">c</Value>
+      <Value description="Inprimatze handikoa">d</Value>
+      <Value description="Braille">f</Value>
+      <Value description="Online">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Inprimatze erregularreko erreprodukzioa">r</Value>
+      <Value description="Elektronikoa">s</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="30-32" name="Zehaztugabea" description="Undefined; each contains a blank (#) or a fill character (|)."/>
+    <Position pos="33" name="Type of visual material" description="One-character alphabetic code that indicates the type of visual material being described.">
+      <Value description="Art original ">a</Value>
+      <Value description="Kit.Mixture of components from two or more categories, that is, sound recording, maps, filmstrips, etc., no one of which is the predominant constituent of the item.">b</Value>
+      <Value description="Art reproduction">c</Value>
+      <Value description="Diorama ">d</Value>
+      <Value description="Filmstrip">f</Value>
+      <Value description="Game">g</Value>
+      <Value description="Picture">i</Value>
+      <Value description="Graphic">k</Value>
+      <Value description="Technical drawing">l</Value>
+      <Value description="Motion picture">m</Value>
+      <Value description="Chart">n</Value>
+      <Value description="Flash card">o</Value>
+      <Value description="Microscope slide">p</Value>
+      <Value description="Model">q</Value>
+      <Value description="Realia ">r</Value>
+      <Value description="Slide">s</Value>
+      <Value description="Transparency">t</Value>
+      <Value description="Videorecording">v</Value>
+      <Value description="Toy">w</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="34" name="Technique" description="One-character alphabetic code that indicates the technique used in creating motion in motion pictures or videorecordings.">
+      <Value description="Animation">a</Value>
+      <Value description="Animation and live action">c</Value>
+      <Value description="Live action">l</Value>
+      <Value description="Ez da aplikagarria">n</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Beste bat">z</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="35-37" url="http://www.loc.gov/marc/languages/language_code.html" urltext="MARC Code List for Languages" name="Hizkuntza" description="">
+      <Value description="Ez dago informaziorik">###</Value>
+      <Value description="Hizkuntza anitz">mul</Value>
+      <Value description="Zeinu hizkuntzak">sgn</Value>
+      <Value description="Zehaztugabea">und</Value>
+      <Value description="Eduki linguistikorik ez">zxx</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="38" name="Erregistro aldatuta" description="One-character code that indicates whether any data in a bibliographic record is a modification of information that appeared on the item being cataloged or that was intended to be included in the MARC record.">
+      <Value description="Ez aldatuta">#</Value>
+      <Value description="Informazio egokia alde batera uzten da">d</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto latindarrean inprimatuta">o</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto ez latindarrean inprimatuta">r</Value>
+      <Value description="Laburtuta">s</Value>
+      <Value description="Karaktere ezikusiak">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="39" name="Katalogazio iturria" description="">
+      <Value description="Nazio-Agentzia Bibliografikoa">#</Value>
+      <Value description="Katalogatzeko programa kooperatiboa">c</Value>
+      <Value description="Beste bat">d</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+  </Material>
+  <Material id="MX" name="Material Mistoak" description="">
+    <Position pos="00-05" name="Sartze data" description=""/>
+    <Position pos="06" name="Data mota/Argitaratze egoera" description="">
+      <Value description="Datarik ez">b</Value>
+      <Value description="Baliabide jarraitua orain argitaratzen dena">c</Value>
+      <Value description="Baliabide jarraitua argitaratze geldituta">d</Value>
+      <Value description="Data zehatza">e</Value>
+      <Value description="Bilduman barne dauden datak">i</Value>
+      <Value description="Bilduma gehienaren urte-tartea">k</Value>
+      <Value description="Data anizkunak">m</Value>
+      <Value description="Data ezezagunak">n</Value>
+      <Value description="Banatze data">p</Value>
+      <Value description="Zalantzazko data">q</Value>
+      <Value description="Berrinprimatze data">r</Value>
+      <Value description="Data bakarra ezaguna/daitekeena">s</Value>
+      <Value description="Argitaratze data eta Copyright data">t</Value>
+      <Value description="Baliabide jarraituaren egoera ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="07-10" name="Data 1" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="11-14" name="Data 2" description="A date specified by the code in 008/06 (Type of date/ Publication status)">
+      <Value description="Data elementua ez da aplikagarria">#</Value>
+      <Value description="Data digitua">1</Value>
+      <Value description="Data digitua">2</Value>
+      <Value description="Data digitua">3</Value>
+      <Value description="Data digitua">4</Value>
+      <Value description="Data digitua">5</Value>
+      <Value description="Data digitua">6</Value>
+      <Value description="Data digitua">7</Value>
+      <Value description="Data digitua">8</Value>
+      <Value description="Data digitua">9</Value>
+      <Value description="Data elementua guztiz edo partez ezezaguna da">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">||||</Value>
+    </Position>
+    <Position pos="15-17" url="http://www.loc.gov/marc/countries/countries_code.html" urltext="MARC Code List for Countries" name="Argitaratze lekua" description="">
+      <Value description="Hainbat leku">vp# </Value>
+      <Value description="Ez dago lekurik, ezezaguna, edo mugagabea">xx#</Value>
+      <Value description="Bi karakteretako kode alfabetikoa">[aa#]</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="18-22" name="Zehaztugabea" description="Undefined; each contains a blank (#) or a fill character (|)."/>
+    <Position pos="23" name="Item-aren forma" description="One-character alphabetic code that specifies the form of material for the item being described">
+      <Value description="Ez da hurrengoetako inongoa">#</Value>
+      <Value description="Mikrofilma">a</Value>
+      <Value description="Mikrofitxa">b</Value>
+      <Value description="Mikroopakua">c</Value>
+      <Value description="Inprimatze handikoa">d</Value>
+      <Value description="Braille">f</Value>
+      <Value description="Online">o</Value>
+      <Value description="Zuzeneko elektronikoa">q</Value>
+      <Value description="Inprimatze erregularreko erreprodukzioa">r</Value>
+      <Value description="Elektronikoa">s</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="24-34" name="Zehaztugabea" description="Undefined; each contains a blank (#) or a fill character (|)."/>
+    <Position pos="35-37" url="http://www.loc.gov/marc/languages/language_code.html" urltext="MARC Code List for Languages" name="Hizkuntza" description="">
+      <Value description="Ez dago informaziorik">###</Value>
+      <Value description="Hizkuntza anitz">mul</Value>
+      <Value description="Zeinu hizkuntzak">sgn</Value>
+      <Value description="Zehaztugabea">und</Value>
+      <Value description="Eduki linguistikorik ez">zxx</Value>
+      <Value description="Hiru karakteretako kode alfabetikoa">[aaa]</Value>
+    </Position>
+    <Position pos="38" name="Erregistro aldatuta" description="One-character code that indicates whether any data in a bibliographic record is a modification of information that appeared on the item being cataloged or that was intended to be included in the MARC record.">
+      <Value description="Ez aldatuta">#</Value>
+      <Value description="Informazio egokia alde batera uzten da">d</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto latindarrean inprimatuta">o</Value>
+      <Value description="Guztiz transliteratuta/fitxak alfabeto ez latindarrean inprimatuta">r</Value>
+      <Value description="Laburtuta">s</Value>
+      <Value description="Karaktere ezikusiak">x</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+    <Position pos="39" name="Katalogazio iturria" description="">
+      <Value description="Nazio-Agentzia Bibliografikoa">#</Value>
+      <Value description="Katalogatzeko programa kooperatiboa">c</Value>
+      <Value description="Beste bat">d</Value>
+      <Value description="Ezezaguna">u</Value>
+      <Value description="Ez da kodifikatzea saiatu">|</Value>
+    </Position>
+  </Material>
+</Tagfield>

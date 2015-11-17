@@ -1,0 +1,44 @@
+# Broken, omitted: acquisitions, emailPurchaseSuggestions
+Acquisitions:
+    Policy:
+        -
+            - Create an item when
+            - pref: AcqCreateItem
+              choices:
+                  ordering: placing an order.
+                  receiving: receiving an order.
+                  cataloguing: cataloging the record.
+        -
+            - "The following <a href='http://schema.koha-community.org/tables/items.html' target='blank'>database columns</a> should be unique in an item:"
+            - pref: UniqueItemFields
+            - (separated by a space)
+        -
+            - When closing or reopening a basket,
+            - pref: BasketConfirmations
+              default: 1
+              choices:
+                  1: always ask for confirmation.
+                  2: do not ask for confirmation.
+        -
+            - Show baskets
+            - pref: AcqViewBaskets
+              choices:
+                  user: created by staff member.
+                  branch: from staff member's library.
+                  all: in system, regardless of owner.
+        -
+            - Display currencies using the following format
+            - pref: CurrencyFormat
+              choices:
+                  US: 360,000.00 (US)
+                  FR: 360 000,00 (FR)
+        -
+            - Default tax rates are
+            - pref: gist
+            - (enter in numeric form, 0.12 for 12%. First is the default. If you want more than 1 value, please separate with |)
+
+    Printing:
+        -
+            - Use
+            - pref: OrderPdfFormat
+            - when printing basket groups.

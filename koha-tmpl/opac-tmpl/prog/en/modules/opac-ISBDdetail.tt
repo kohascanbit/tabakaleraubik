@@ -1,0 +1,66 @@
+[% INCLUDE 'doc-head-open.inc' %][% IF ( LibraryNameTitle ) %][% LibraryNameTitle %][% ELSE %]Koha online[% END %] catalog &rsaquo; ISBD view
+[% INCLUDE 'doc-head-close.inc' %]
+<script type="text/javascript">
+//<![CDATA[
+    YAHOO.util.Event.onContentReady("furtherm", function () {
+        $("#furtherm").css("display","block").css("visibility","hidden");
+        $("#furthersearches").parent().show();
+        var furthersearchesMenu = new YAHOO.widget.Menu("furtherm");
+            furthersearchesMenu.render();
+            furthersearchesMenu.cfg.setProperty("context", ["furthersearches", "tr", "br"]);
+            furthersearchesMenu.subscribe("beforeShow",positionfurthersearchesMenu);
+            furthersearchesMenu.subscribe("show", furthersearchesMenu.focus);
+            function positionfurthersearchesMenu() {
+                        furthersearchesMenu.align("tr", "br");
+            }
+            YAHOO.util.Event.addListener("furthersearches", "click", furthersearchesMenu.show, null, furthersearchesMenu);
+            YAHOO.widget.Overlay.windowResizeEvent.subscribe(positionfurthersearchesMenu);
+     });
+//]]>
+</script>
+</head>
+<body id="opac-isbddetail">
+
+<div id="doc3" class="yui-t7">
+   <div id="bd">
+[% INCLUDE 'masthead.inc' %]
+<div id="left-detail">
+  	
+	<div class="yui-u">
+	
+	<div id="ulactioncontainer" class="container">
+
+[% INCLUDE 'opac-detail-sidebar.inc' %]
+
+</div>
+</div>
+
+<div id="leftviews">
+	<label>Views: </label>
+	<ul id="leftviews">
+		<li><a id="Normalview" href="/cgi-bin/koha/opac-detail.pl?biblionumber=[% biblionumber %]">Normal</a></li>
+			<li><a id="MARCview" href="/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=[% biblionumber %]">MARC</a></li>
+			<li><span id="ISBDview">ISBD</span></li>
+	</ul>
+</div>
+
+</div>
+    <div id="yui-main">
+    [% INCLUDE 'search.inc' %]
+    <div class="yui-b">
+    <div id="opac-detail" class="yui-ge">
+    <div class="yui-u first">
+    <div id="userisbddetail" class="container">
+    <div id="catalogue_detail_biblio">
+	
+    <div id="isbdcontents">[% ISBD %]</div>
+
+	</div>
+	</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+[% INCLUDE 'opac-bottom.inc' %]

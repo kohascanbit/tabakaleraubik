@@ -1,0 +1,887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Koha 3.12\n"
+"POT-Creation-Date: 2013-07-04 12:37+0200\n"
+"PO-Revision-Date: 2013-06-12 13:47+0100\n"
+"Last-Translator: MASmedios <isabel@masmedios.com>\n"
+"Language-Team: Koha Translation Team <koha-translate@lists.koha.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. For the first occurrence,
+#. %1$s:  IF ( userview ) 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:3
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:4
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:6
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:8
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:10
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:13
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:16
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:19
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:21
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:26
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:30
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:33
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:97
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:21
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:34
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:66
+#: opac-tmpl/ccsr/en/includes/masthead.inc:85
+#: opac-tmpl/ccsr/en/includes/masthead.inc:108
+#: opac-tmpl/ccsr/en/includes/masthead.inc:109
+#: opac-tmpl/ccsr/en/includes/masthead.inc:116
+#: opac-tmpl/ccsr/en/includes/masthead.inc:118
+#: opac-tmpl/ccsr/en/includes/masthead.inc:194
+#: opac-tmpl/ccsr/en/includes/masthead.inc:203
+#: opac-tmpl/ccsr/en/includes/masthead.inc:227
+#: opac-tmpl/ccsr/en/includes/masthead.inc:228
+#: opac-tmpl/ccsr/en/includes/masthead.inc:248
+#: opac-tmpl/ccsr/en/includes/masthead.inc:249
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:30
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:31
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:58
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:102
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:103
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:104
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#. For the first occurrence,
+#. %1$s:  END 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:33
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:1
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:2
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:4
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:25
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:28
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:30
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:32
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:35
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:55
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:67
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:131
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:17
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:19
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:21
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:32
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:34
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:37
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:54
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:56
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:66
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:67
+#: opac-tmpl/ccsr/en/includes/masthead.inc:14
+#: opac-tmpl/ccsr/en/includes/masthead.inc:20
+#: opac-tmpl/ccsr/en/includes/masthead.inc:27
+#: opac-tmpl/ccsr/en/includes/masthead.inc:34
+#: opac-tmpl/ccsr/en/includes/masthead.inc:39
+#: opac-tmpl/ccsr/en/includes/masthead.inc:45
+#: opac-tmpl/ccsr/en/includes/masthead.inc:47
+#: opac-tmpl/ccsr/en/includes/masthead.inc:49
+#: opac-tmpl/ccsr/en/includes/masthead.inc:51
+#: opac-tmpl/ccsr/en/includes/masthead.inc:53
+#: opac-tmpl/ccsr/en/includes/masthead.inc:58
+#: opac-tmpl/ccsr/en/includes/masthead.inc:63
+#: opac-tmpl/ccsr/en/includes/masthead.inc:68
+#: opac-tmpl/ccsr/en/includes/masthead.inc:73
+#: opac-tmpl/ccsr/en/includes/masthead.inc:78
+#: opac-tmpl/ccsr/en/includes/masthead.inc:83
+#: opac-tmpl/ccsr/en/includes/masthead.inc:89
+#: opac-tmpl/ccsr/en/includes/masthead.inc:91
+#: opac-tmpl/ccsr/en/includes/masthead.inc:93
+#: opac-tmpl/ccsr/en/includes/masthead.inc:99
+#: opac-tmpl/ccsr/en/includes/masthead.inc:101
+#: opac-tmpl/ccsr/en/includes/masthead.inc:111
+#: opac-tmpl/ccsr/en/includes/masthead.inc:116
+#: opac-tmpl/ccsr/en/includes/masthead.inc:121
+#: opac-tmpl/ccsr/en/includes/masthead.inc:147
+#: opac-tmpl/ccsr/en/includes/masthead.inc:152
+#: opac-tmpl/ccsr/en/includes/masthead.inc:158
+#: opac-tmpl/ccsr/en/includes/masthead.inc:160
+#: opac-tmpl/ccsr/en/includes/masthead.inc:162
+#: opac-tmpl/ccsr/en/includes/masthead.inc:175
+#: opac-tmpl/ccsr/en/includes/masthead.inc:177
+#: opac-tmpl/ccsr/en/includes/masthead.inc:182
+#: opac-tmpl/ccsr/en/includes/masthead.inc:190
+#: opac-tmpl/ccsr/en/includes/masthead.inc:232
+#: opac-tmpl/ccsr/en/includes/masthead.inc:241
+#: opac-tmpl/ccsr/en/includes/masthead.inc:243
+#: opac-tmpl/ccsr/en/includes/masthead.inc:245
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:10
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:16
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:22
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:26
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:43
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:140
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:141
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:144
+#, c-format
+msgid "%s "
+msgstr "%s "
+
+#. For the first occurrence,
+#. %1$s:  IF ( OPACFinesTab ) 
+#. %2$s:  IF ( accountview ) 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:4
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:6
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:8
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:19
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:64
+#: opac-tmpl/ccsr/en/includes/masthead.inc:106
+#: opac-tmpl/ccsr/en/includes/masthead.inc:195
+#: opac-tmpl/ccsr/en/includes/masthead.inc:196
+#: opac-tmpl/ccsr/en/includes/masthead.inc:197
+#: opac-tmpl/ccsr/en/includes/masthead.inc:198
+#: opac-tmpl/ccsr/en/includes/masthead.inc:199
+#: opac-tmpl/ccsr/en/includes/masthead.inc:200
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:28
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:30
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:129
+#, c-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#. For the first occurrence,
+#. %1$s:  IF ( loggedinusername ) 
+#. %2$s:  IF ( barshelves ) 
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:29
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:41
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:44
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:58
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:60
+#: opac-tmpl/ccsr/en/includes/masthead.inc:11
+#: opac-tmpl/ccsr/en/includes/masthead.inc:22
+#: opac-tmpl/ccsr/en/includes/masthead.inc:36
+#: opac-tmpl/ccsr/en/includes/masthead.inc:55
+#: opac-tmpl/ccsr/en/includes/masthead.inc:60
+#: opac-tmpl/ccsr/en/includes/masthead.inc:65
+#: opac-tmpl/ccsr/en/includes/masthead.inc:70
+#: opac-tmpl/ccsr/en/includes/masthead.inc:75
+#: opac-tmpl/ccsr/en/includes/masthead.inc:80
+#: opac-tmpl/ccsr/en/includes/masthead.inc:95
+#: opac-tmpl/ccsr/en/includes/masthead.inc:109
+#: opac-tmpl/ccsr/en/includes/masthead.inc:113
+#: opac-tmpl/ccsr/en/includes/masthead.inc:118
+#: opac-tmpl/ccsr/en/includes/masthead.inc:149
+#: opac-tmpl/ccsr/en/includes/masthead.inc:171
+#: opac-tmpl/ccsr/en/includes/masthead.inc:204
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:7
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:31
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:49
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:112
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:120
+#, c-format
+msgid "%s %s "
+msgstr "%s %s "
+
+#. For the first occurrence,
+#. %1$s:  END 
+#. %2$s:  IF ( OpacPasswordChange ) 
+#. %3$s:  IF ( passwdview ) 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:10
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:13
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:16
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:30
+#: opac-tmpl/ccsr/en/includes/masthead.inc:201
+#, c-format
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#. For the first occurrence,
+#. %1$s:  IF ( opaclanguagesdisplay || OpacKohaUrl ) 
+#. %2$s:  IF ( languages_loop && opaclanguagesdisplay ) 
+#. %3$s:  UNLESS ( one_language_enabled ) 
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:38
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:45
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:51
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:57
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:62
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:77
+#: opac-tmpl/ccsr/en/includes/masthead.inc:3
+#: opac-tmpl/ccsr/en/includes/masthead.inc:16
+#: opac-tmpl/ccsr/en/includes/masthead.inc:30
+#: opac-tmpl/ccsr/en/includes/masthead.inc:125
+#: opac-tmpl/ccsr/en/includes/masthead.inc:129
+#: opac-tmpl/ccsr/en/includes/masthead.inc:133
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:12
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:18
+#, c-format
+msgid "%s %s %s "
+msgstr "%s %s %s "
+
+#. %1$s:  END 
+#. %2$s:  END 
+#. %3$s:  IF ( EnhancedMessagingPreferences ) 
+#. %4$s:  IF ( messagingview ) 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:26
+#, c-format
+msgid "%s %s %s %s"
+msgstr "%s %s %s %s"
+
+#. %1$s:  END 
+#. %2$s:  END 
+#. %3$s:  IF ( suggestion ) 
+#. %4$s:  UNLESS ( AnonSuggestions ) 
+#. %5$s:  IF ( suggestionsview ) 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:21
+#, c-format
+msgid "%s %s %s %s %s"
+msgstr "%s %s %s %s %s"
+
+#. For the first occurrence,
+#. %1$s:  END 
+#. %2$s:  END 
+#. %3$s:  END 
+#. %4$s:  END 
+#. %5$s:  END 
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:69
+#: opac-tmpl/ccsr/en/includes/navigation.inc:1
+#, c-format
+msgid "%s %s %s %s %s "
+msgstr "%s %s %s %s %s "
+
+#. For the first occurrence,
+#. %1$s:  sublanguages_loo.native_description 
+#. %2$s:  sublanguages_loo.script_description 
+#. %3$s:  sublanguages_loo.region_description 
+#. %4$s:  sublanguages_loo.variant_description 
+#. %5$s:  sublanguages_loo.rfc4646_subtag 
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:55
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:57
+#, c-format
+msgid "%s %s %s %s (%s)"
+msgstr "%s %s %s %s (%s)"
+
+#. %1$s:  IF ( related ) 
+#. %2$s:  FOREACH relate IN related 
+#. %3$s:  relate.related_search 
+#. %4$s:  END 
+#. %5$s:  END 
+#: opac-tmpl/ccsr/en/includes/masthead.inc:229
+#, c-format
+msgid "%s (related searches: %s%s%s). %s "
+msgstr "%s (búsquedas relacionadas: %s%s%s). %s "
+
+#. %1$s:  ELSE 
+#. %2$s:  END 
+#. %3$s:  IF ( opacuserlogin ) 
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:24
+#, c-format
+msgid "%s No public lists %s %s "
+msgstr "%s No hay listas públicas %s %s "
+
+#. %1$s:  IF ( searchdesc ) 
+#. %2$s:  LibraryName 
+#: opac-tmpl/ccsr/en/includes/masthead.inc:235
+#, c-format
+msgid "%s No results found for that in %s catalog. "
+msgstr "%s Sin resultados para ello en el catálogo %s. "
+
+#. %1$s:  ELSE 
+#. %2$s:  END 
+#: opac-tmpl/ccsr/en/includes/masthead.inc:237
+#, c-format
+msgid "%s You did not specify any search criteria. %s "
+msgstr "%s Usted no especificó ningún criterio de búsqueda. %s "
+
+#. For the first occurrence,
+#. %1$s:  ELSE 
+#. %2$s:  IF ( virtualshelves ) 
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:104
+#, c-format
+msgid "%s%s"
+msgstr "%s%s"
+
+#. %1$s:  IF ( opacuserlogin ) 
+#. %2$s:  IF ( loggedinusername ) 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:1
+#, c-format
+msgid "%s%s "
+msgstr "%s%s "
+
+#. %1$s:  FOREACH USER_INF IN USER_INFO 
+#. %2$s:  USER_INF.title 
+#. %3$s:  USER_INF.firstname 
+#. %4$s:  USER_INF.surname 
+#. %5$s:  END 
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:60
+#, c-format
+msgid "%s%s %s %s%s"
+msgstr "%s%s %s %s%s"
+
+#. %1$s:  IF ( opacuserjs ) 
+#. %2$s:  opacuserjs 
+#. %3$s:  END 
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:85
+#, c-format
+msgid "%s%s%s"
+msgstr "%s%s%s"
+
+#. %1$s:  END 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:37
+#, c-format
+msgid "%s%s%s "
+msgstr "%s%s%s "
+
+#. %1$s:  END 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#. %4$s:  IF ( GoogleJackets ) 
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:105
+#, c-format
+msgid "%s%s%s %s "
+msgstr "%s%s%s %s "
+
+#. For the first occurrence,
+#. %1$s:  IF ( languages_loo.native_description ) 
+#. %2$s:  languages_loo.native_description 
+#. %3$s:  ELSE 
+#. %4$s:  languages_loo.rfc4646_subtag 
+#. %5$s:  END 
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:50
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:67
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:69
+#, c-format
+msgid "%s%s%s%s%s"
+msgstr "%s%s%s%s%s"
+
+#. %1$s:  END 
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:66
+#, c-format
+msgid "%sLog Out"
+msgstr "%sCerrar sesión"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:228
+#, c-format
+msgid "&rsaquo; "
+msgstr "&rsaquo; "
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Add to your cart"
+msgstr "Agregar a su carrito"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:194
+#, c-format
+msgid "Advanced search"
+msgstr "Búsqueda avanzada"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:180
+#, c-format
+msgid "All Libraries"
+msgstr "Todas las bibliotecas"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:105
+#, c-format
+msgid "All libraries"
+msgstr "Todas las bibliotecas"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Are you sure you want to empty your cart?"
+msgstr "¿Está seguro de querer vaciar su bolsa?"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Are you sure you want to remove the selected items?"
+msgstr "¿Está seguro de querer borrar los ítems seleccionados?"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:63
+#: opac-tmpl/ccsr/en/includes/masthead.inc:65
+#, c-format
+msgid "Author"
+msgstr "Autor"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:197
+#, c-format
+msgid "Authority search"
+msgstr "Búsqueda de autoridades"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:196
+#, c-format
+msgid "Browse by hierarchy"
+msgstr "Explorar por jerarquía"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:83
+#: opac-tmpl/ccsr/en/includes/masthead.inc:85
+#, c-format
+msgid "Call number"
+msgstr "Signatura topográfica"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Cart"
+msgstr "Carrito"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:97
+msgid ""
+"Could not login, perhaps your Persona email does not match your Koha one"
+msgstr ""
+"No puede ingresar, tal vez su email de Persona no coincide con el de su "
+"usuario Koha"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:195
+#, c-format
+msgid "Course Reserves"
+msgstr "Colección de préstamo restringido"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Error! Illegal parameter"
+msgstr "¡Error! Parámetro ilegal"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Error! The add_tag operation failed on"
+msgstr "¡Error! La operación add_tag falló en"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Error! You cannot delete the tag"
+msgstr "¡Error! No puede borrar la etiqueta"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid ""
+"Error! Your tag was entirely markup code. It was NOT added. Please try again "
+"with plain text."
+msgstr ""
+"¡Error! Su etiqueta tenía código ilegal. NO ha sido agregada. Intente "
+"nuevamente con texto simple."
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Errors: "
+msgstr "Errores: "
+
+#. INPUT type=submit
+#: opac-tmpl/ccsr/en/includes/masthead.inc:139
+#: opac-tmpl/ccsr/en/includes/masthead.inc:186
+msgid "Go"
+msgstr "Ir"
+
+#. OPTGROUP
+#: opac-tmpl/ccsr/en/includes/masthead.inc:113
+msgid "Groups"
+msgstr "Grupos"
+
+#. A
+#: opac-tmpl/ccsr/en/includes/masthead.inc:227
+#, c-format
+msgid "Home"
+msgstr "Inicio"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:73
+#: opac-tmpl/ccsr/en/includes/masthead.inc:75
+#, c-format
+msgid "ISBN"
+msgstr "ISBN"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "In your cart"
+msgstr "En su carrito"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Items in your cart: "
+msgstr "Ejemplares en su carrito: "
+
+#. IMG
+#: opac-tmpl/ccsr/en/includes/masthead.inc:14
+#: opac-tmpl/ccsr/en/includes/masthead.inc:20
+msgid "Koha Online Catalog"
+msgstr "Catálogo en línea Koha"
+
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:3
+msgid "Koha [% Version %]"
+msgstr "Koha [% Version %]"
+
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:44
+#, c-format
+msgid "Languages:&nbsp;"
+msgstr "Idiomas:&nbsp;"
+
+#. OPTGROUP
+#: opac-tmpl/ccsr/en/includes/masthead.inc:106
+msgid "Libraries"
+msgstr "Bibliotecas"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:165
+#, c-format
+msgid "Library Catalog"
+msgstr "Catálogo"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:53
+#: opac-tmpl/ccsr/en/includes/masthead.inc:55
+#, c-format
+msgid "Library catalog"
+msgstr "Catálogo"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:14
+#, c-format
+msgid "Lists"
+msgstr "Listas"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:44
+#, c-format
+msgid "Log in to create your own lists"
+msgstr "Ingrese para crear sus propias listas"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:58
+#, c-format
+msgid "Log in to your account"
+msgstr "Ingresar a su cuenta"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:201
+#, c-format
+msgid "Most popular"
+msgstr "Más populares"
+
+#. For the first occurrence,
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:45
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:52
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:108
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:116
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:125
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:133
+msgid "No cover image available"
+msgstr "No hay imagen de cubierta disponible"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "No item was added to your cart"
+msgstr "No se agregaron ítems a su bolsa"
+
+#. For the first occurrence,
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "No item was selected"
+msgstr "No se seleccionó ningún ítem"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:40
+#, c-format
+msgid "No private lists"
+msgstr "No hay listas privadas"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:234
+#, c-format
+msgid "No results found!"
+msgstr "¡No se encontraron resultados!"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "No tag was specified."
+msgstr "No se especificó ninguna etiqueta."
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Note: you can only delete your own tags."
+msgstr "Nota: sólo puede borrar sus propias etiquetas."
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid ""
+"Note: you can only tag an item with a given term once. Check 'My Tags' to "
+"see your current tags."
+msgstr ""
+"Nota: solo puede etiquetar un ítem con determinado término una vez. Vea 'Mis "
+"Etiquetas' para ver sus etiquetas actuales."
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid ""
+"Note: your tag contained markup code that was removed. The tag was added as "
+msgstr ""
+"Nota: su etiqueta contenía código que fue borrado. La etiqueta fue agregada "
+"como "
+
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:30
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:32
+#, c-format
+msgid "Powered by"
+msgstr "Con tecnología"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:17
+#, c-format
+msgid "Public lists"
+msgstr "Listas públicas"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:203
+#: opac-tmpl/ccsr/en/includes/masthead.inc:204
+#, c-format
+msgid "Purchase suggestions"
+msgstr "Sugerencias de compra"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:198
+#, c-format
+msgid "Recent comments"
+msgstr "Comentarios recientes"
+
+#. A
+#: opac-tmpl/ccsr/en/includes/masthead.inc:228
+#, c-format
+msgid "Search"
+msgstr "Buscar"
+
+#. For the first occurrence,
+#. %1$s:  UNLESS ( OpacAddMastheadLibraryPulldown ) 
+#. %2$s:  IF ( mylibraryfirst ) 
+#. %3$s:  mylibraryfirst 
+#. %4$s:  END 
+#. %5$s:  END 
+#: opac-tmpl/ccsr/en/includes/masthead.inc:41
+#: opac-tmpl/ccsr/en/includes/masthead.inc:154
+#, c-format
+msgid "Search %s %s (in %s only)%s %s "
+msgstr "Buscar %s %s (solo en %s)%s %s "
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:64
+#, c-format
+msgid "Search history"
+msgstr "Historial de búsqueda"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:78
+#: opac-tmpl/ccsr/en/includes/masthead.inc:80
+#, c-format
+msgid "Series"
+msgstr "Series"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Sorry, tags are not enabled on this system."
+msgstr "Lo sentimos, las etiquetas no están habilitadas en este sistema."
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:68
+#: opac-tmpl/ccsr/en/includes/masthead.inc:70
+#, c-format
+msgid "Subject"
+msgstr "Tema"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:200
+#, c-format
+msgid "Subject cloud"
+msgstr "Nube de temas"
+
+#. IMG
+#: opac-tmpl/ccsr/en/includes/masthead.inc:232
+#: opac-tmpl/ccsr/en/includes/masthead.inc:237
+msgid "Subscribe to this search"
+msgstr "Suscribirse a esta búsqueda"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:199
+#, c-format
+msgid "Tag cloud"
+msgstr "Nube de etiquetas"
+
+#. For the first occurrence,
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Tags added: "
+msgstr "Etiquetas agregadas: "
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "This item has been added to your cart"
+msgstr "Este ítem se agregó a su bolsa"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "This item has been removed from your cart"
+msgstr "Este ítem se eliminó de su carrito"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "This item is already in your cart"
+msgstr "Este ítem ya está en su bolsa"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:58
+#: opac-tmpl/ccsr/en/includes/masthead.inc:60
+#, c-format
+msgid "Title"
+msgstr "Título"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Unable to add one or more tags."
+msgstr "No se pudo agregar una o mas etiquetas."
+
+#. A
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:64
+msgid "View your search history"
+msgstr "Ver su historial de búsqueda"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:60
+#, c-format
+msgid "Welcome, "
+msgstr "Bienvenido, "
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "You must be logged in to add tags."
+msgstr "Debe ingresar a su cuenta para agregar etiquetas."
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "Your cart is currently empty"
+msgstr "Su bolsa de libros está vacía"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:6
+#, c-format
+msgid "Your cart is empty."
+msgstr "Su bolsa de libros está vacía."
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:29
+#, c-format
+msgid "Your lists"
+msgstr "Sus listas"
+
+#. %1$s:  total |html 
+#: opac-tmpl/ccsr/en/includes/masthead.inc:229
+#, c-format
+msgid "Your search returned %s results."
+msgstr "Su búsqueda retornó %s resultados."
+
+#. IMG
+#: opac-tmpl/ccsr/en/includes/masthead.inc:16
+#: opac-tmpl/ccsr/en/includes/masthead.inc:22
+msgid "[% LibraryName %] Online Catalog"
+msgstr "[% LibraryName %] Catálogo en línea"
+
+#. INPUT type=text name=q
+#: opac-tmpl/ccsr/en/includes/masthead.inc:91
+msgid "[% ms_value |html %]"
+msgstr "[% ms_value |html %]"
+
+#. %1$s:  INCLUDE 'top-bar.inc' 
+#: opac-tmpl/ccsr/en/includes/opac-bottom.inc:14
+#, c-format
+msgid ""
+"[%%# Sticking the div for the top bar here; since the top bar is positioned "
+"absolutely in this theme, it it makes the positioning of the rest of the "
+"elements easier to keep it out of the doc3 div. %%] %s "
+msgstr ""
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:41
+#, c-format
+msgid "[New list]"
+msgstr "[Nueva lista]"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:23
+#, c-format
+msgid "[View All]"
+msgstr "[Ver todo]"
+
+#: opac-tmpl/ccsr/en/includes/top-bar.inc:36
+#, c-format
+msgid "[View all]"
+msgstr "[Ver todo]"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "already in your cart"
+msgstr "ya está en su bolsa"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:13
+#, c-format
+msgid "change my password"
+msgstr "cambiar mi contraseña"
+
+#. SCRIPT
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:63
+msgid "item(s) added to your cart"
+msgstr "ejemplares agregados a su bolsa"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:6
+#, c-format
+msgid "my fines"
+msgstr "mis multas"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:33
+#, c-format
+msgid "my lists"
+msgstr "mis listas"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:30
+#, c-format
+msgid "my messaging"
+msgstr "mis mensajes"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:8
+#, c-format
+msgid "my personal details"
+msgstr "mis detalles personales"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:21
+#, c-format
+msgid "my privacy"
+msgstr "mi privacidad"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:26
+#, c-format
+msgid "my purchase suggestions"
+msgstr "mis sugerencias de compra"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:19
+#, c-format
+msgid "my reading history"
+msgstr "mi historial de lecturas"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:16
+#, c-format
+msgid "my search history"
+msgstr "mi historial de búsqueda"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:4
+#, c-format
+msgid "my summary"
+msgstr "mi resumen"
+
+#: opac-tmpl/ccsr/en/includes/usermenu.inc:10
+#, c-format
+msgid "my tags"
+msgstr "mis etiquetas"
+
+#. META http-equiv=Content-Type
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:2
+msgid "text/html; charset=utf-8"
+msgstr "text/html; charset=utf-8"
+
+#. LINK
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:141
+msgid "unAPI"
+msgstr "unAPI"
+
+#: opac-tmpl/ccsr/en/includes/doc-head-close.inc:25
+msgid ""
+"width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,"
+"user-scalable=no"
+msgstr ""
+"width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,"
+"user-scalable=no"
+
+#: opac-tmpl/ccsr/en/includes/masthead.inc:195
+#: opac-tmpl/ccsr/en/includes/masthead.inc:196
+#: opac-tmpl/ccsr/en/includes/masthead.inc:197
+#: opac-tmpl/ccsr/en/includes/masthead.inc:198
+#: opac-tmpl/ccsr/en/includes/masthead.inc:199
+#: opac-tmpl/ccsr/en/includes/masthead.inc:200
+#: opac-tmpl/ccsr/en/includes/masthead.inc:201
+#: opac-tmpl/ccsr/en/includes/masthead.inc:203
+#: opac-tmpl/ccsr/en/includes/masthead.inc:204
+#, c-format
+msgid "| "
+msgstr "| "

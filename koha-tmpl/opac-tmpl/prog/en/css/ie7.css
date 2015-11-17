@@ -1,0 +1,47 @@
+input[type=checkbox] {
+	border:0;
+	padding:0;
+	background:white;
+}
+
+#results #breadcrumbs{
+	position:relative;
+	margin-left:-29px;
+}
+
+#results #list_detail, #results #userresults {
+	top:-48px;
+}
+
+#results #userresults {
+	position:relative;
+}
+
+#opac-detail #list_detail {
+	position:absolute;
+	right:0;
+}
+
+#login legend, fieldset.brief legend{
+	margin-left:-6px;
+}
+
+#listsmenulink span { top: -5px; }
+
+#listsmenulink {
+	background-image:url(../../images/list.gif);
+	background-position:95% 8px;
+	background-repeat:no-repeat;
+}
+
+#breadcrumbs .yui-g {
+	padding-left:30px;
+}
+
+#views .view {
+	padding-bottom:1px;
+}
+
+#basketcount {
+	top:2px!important;
+}
